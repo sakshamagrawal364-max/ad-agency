@@ -1,6 +1,6 @@
 # 6 · Testing — Minimalist
 
-STATUS: NOT STARTED
+STATUS: BLOCKED — waiting for real test data
 Agent: agents/6-testing-agent.md · Reads: 1-brand.md, 5-creatives.md, raw data below
 Last updated: —
 
