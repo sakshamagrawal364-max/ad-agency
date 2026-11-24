@@ -1,63 +1,71 @@
-# 7 · Winners — DEMO CalmLayer
+# 7 · Winners — DEMO CalmLayer · ROUND 2
 
 STATUS: DRAFT — PRACTICE DATA ONLY, awaiting human review
-Agent: agents/7-winner-agent.md · Reads: 3-angles.md, 4-scripts.md, 5-creatives.md, 6-testing.md
+Agent: agents/7-winner-agent.md · Reads: 3-angles.md, 4-scripts.md (R2), 5-creatives.md (R2), 6-testing.md (R2), archive/7-winners-round1
 Last updated: 2026-11-24
+Round 1 winners: `archive/7-winners-round1-2026-11-24.md`
 
-> 🚨 **Built on PRACTICE data** (agent-generated at the human's request for the fictional DEMO brand).
-> Nothing here reflects a real ad. Do not carry these "learnings" into a real brand.
+> 🚨 **Built on PRACTICE data** that the agent wrote at the human's request for a fictional brand.
+> The agent chose those numbers, so these "learnings" show how the method works. They are not evidence.
 
 ---
 
 ## 1. Winner ranking (primary KPI: CPA)
 
-| Rank | Ad | Concept | CPA (calc.) | Supporting signal | Confidence | Label |
+| Rank | Ad | Concept | CPA (calc.) | Supporting signals | Confidence | Label |
 |---|---|---|---|---|---|---|
-| 1 | A | CL01 · 60-day guarantee (founder) | $21.43 | Best CVR 3.89%, best ATC 15% | LOW (14 purchases) | **Leading candidate**, not a confirmed winner |
-| 2 | C | CL06 · rub-test demo | $33.33 | Best hook 40%, CTR 2.0%, CPC $0.68 | Attention HIGH · CPA LOW | **Attention winner** |
-| 3 | B | CL04 · ingredient-list macro | $42.86 | Middling CVR, weak attention | LOW | Underperformer |
-| 4 | D | CL09 · "suffocating creams" UGC | $75.00 | Weakest on every metric | LOW, but A vs D p≈0.015 | **Clear underperformer** |
+| 1 | B | **R2C01** rub-test hook → guarantee | **$17.65** | Hook 37.7%, CVR 3.95%, ROAS 1.53 | CPA LOW (17 purchases; vs A p≈0.42) · hook HIGH | **Leading candidate.** Recommended as the new control, pending more data |
+| 2= | A | CL01 control | $23.08 | Steady across 2 rounds (practice $21.43 → $23.08) | LOW | Reliable baseline |
+| 2= | D | R2C03 empty-jar hook | $23.08 | Hook 29.0% (vs A, HIGH), best hold 32.4% | LOW | Promising hook, no CPA gain |
+| 4 | C | R2C02 rub test + end card | $25.00 | Best hook 39.4%, weakest CVR 2.76% | LOW | Underperformer on KPI |
+
+**Across both rounds (practice):** best CPA went from $21.43 (R1, CL01) to $17.65 (R2, R2C01). Different weeks, small samples. Directional only.
 
 ## 2. Winning elements
 
-| Element | From | What it was | Why it *may* have worked (hypothesis) |
+| Element | Winner | Detail | Why it *may* work (hypothesis) |
 |---|---|---|---|
-| **Winning hook** | Ad C | First frame: cream rubbed on skin + "The rub test every moisturizer should pass." | A visual test creates curiosity in the first second. It's a show-don't-tell demo for the pilling pain point (2-research §2 #3) |
-| **Winning angle** | Ad A | **Proof / risk reversal:** "Use the whole jar. Still not for you? Full refund." (C8) | Directly answers sensitive-skin trial anxiety (2-research §2 #4, §8 gap 2). It moves people already on the fence |
-| **Winning creative format** | A (sales) / C (attention) | Founder-to-camera (A) and real-time macro demo (C), both unpolished and single-take | Authentic, low-production styles suit a new brand with no reviews |
-| **Winning CTA** | Ad A | "Shop Now" + "Try it for 60 days" (offer-led) | Pairs the action with the risk reversal. Ad C's CTA ("Try it") had no reason to act now |
-| **Winning audience** | — | **DATA NOT PROVIDED** | No age, gender or placement breakdown was pasted. Only one broad audience was used, so no audience comparison is possible |
+| **Hook** | R2C01 (and R2C02) | Real-time macro rub test + "The rub test every moisturizer should pass." | A live product action in the first second, which is the Round 1 lesson confirmed in two ads this round |
+| **Angle** | R2C01 | **Proof (demo) → risk reversal (guarantee)** combined | The demo earns attention; the guarantee earns the sale |
+| **Structure** | R2C01 | **Guarantee arrives early** (founder at ~3s; guarantee by ~17s) | R2C02 put it only at the end and converted worse: placement may matter more than presence |
+| **Creative format** | R2C01 | Hybrid: macro demo + founder-to-camera, unpolished | Authentic for a no-review brand |
+| **CTA** | All (held constant) | Shop Now + headline "Try it for 60 days" | Not tested this round. R2-07 (CTA test) is still in the backlog |
+| **Audience** | — | **DATA NOT PROVIDED** | Same single broad audience in both rounds; no breakdowns pasted |
 
 ## 3. Losers' lessons
-- **Ad D (problem-led UGC, "suffocating creams"):** opening on a complaint without a visual payoff → lowest hook (20%) and hold (22%). Lesson (hypothesis): for this brand, **show** the problem being solved rather than **describing** it. One execution doesn't kill the angle; it could return as a demo.
-- **Ad B (ingredient list):** informative but static, with low hook (20%) and CTR (1.0%). Lesson: transparency may work better as **supporting proof inside** an ad than as the opening.
-- **Shared pattern:** both underperformers were **talk/read-heavy with no live product action** in the first 3 seconds.
+- **R2C02 (end card):** adding the guarantee **at the end** didn't clearly fix the click-to-purchase weakness. Likely too late, since its hold rate was the lowest (28.6%). **Lesson: the risk reversal belongs in the first third to half of the ad.**
+- **R2C03 (empty jar):** a stronger hook alone didn't lower CPA when the body stayed the same. **Lesson: hook gains need a body that converts; test hooks on the best body (R2C01's).**
+- **Shared ceiling:** post-click CVR around 3.6–3.95% for A, B and D. **Next gains may come from the landing page/offer, not more ad variants.** (The landing-page change is unconfirmed.)
 
-## 4. Round 2 variations (drafts; each changes one variable)
+## 4. Round 3 variations (drafts; each changes one variable vs the new control R2C01)
 
-| ID | Keeps | Changes | Hypothesis | Compliance note |
+| ID | Keeps (from R2C01) | Changes | Hypothesis | Compliance note |
 |---|---|---|---|---|
-| R2-01 | A's guarantee body + CTA | **Hook → C's rub-test opening** (first 3s) | Combines C's attention with A's conversion; may lower CPA vs A | Rub test must be one unedited take |
-| R2-02 | C's full rub-test ad | **Adds the guarantee end card** ("60 days, even if empty") | Fixes C's weak click-to-purchase step | Exact policy terms on screen |
-| R2-03 | A's founder + guarantee | **New hook: jar-scraping shot** ("Even if it's this empty.") | A visual version of the empty-jar promise may lift A's 25% hook rate | Policy wording exact |
-| R2-04 | Guarantee angle | **Format → creator UGC** instead of founder | Tests whether the angle or the founder drove A | Genuine creator experience; #ad |
-| R2-05 | C's rub test | **Format → split-screen layering under SPF** (C7 V3) | A more direct proof of no pilling under SPF | Caption the SPF type; "results can vary with other products" |
-| R2-06 | Winning hook (rub test) | **Angle → "What if I react?" (C9)** body + patch-test guidance | An objection-handling body after a demo hook | "Discontinue if irritation occurs" |
-| R2-07 | Ad A unchanged | **CTA → "Try it for 60 days"** as the button-adjacent headline (vs "Shop now") | Isolates the CTA wording | Policy accurate |
-| R2-08 | Suffocating-creams angle (D) | **Execution → texture demo** (C2 V2 ASMR) instead of a talking complaint | Tests whether D failed on angle or execution | Real texture, no CGI |
+| R3-01 | Body + CTA | **Hook → empty-jar scrape (R2C03's)**, then a fast cut to the rub test | Combines the two best-tested hooks | Empty jar = illustration of policy, not a customer result |
+| R3-02 | Everything | **Guarantee moves even earlier** (on-screen at 3s, during the rub test) | Tests the "earlier is better" lesson directly | Terms readable ≥ 3s |
+| R3-03 | Hook + structure | **Founder → genuine creator** (R2-04) | Is it the founder or the structure? | #ad; genuine experience only |
+| R3-04 | Hook + body | **CTA headline → "Use the whole jar. Then decide."** | First real CTA test | Matches policy wording |
+| R3-05 | Whole ad | **Length 20s → 12s cut-down** | Shorter may suit Reels/Stories placements | Keep terms on screen |
+| R3-06 | Whole ad | **Adds SPF layering proof** (R2-05 split-screen) mid-ad | Addresses "will it pill under SPF?" | Caption the SPF type; results vary |
+| R3-07 | Ad unchanged | **Landing page variant:** rub-test GIF + guarantee above the fold (if not already done) | Tests the shared post-click ceiling | Page claims = ad claims |
 
-**Suggested Round 2 test (recommendation only):** Ad A (control) vs R2-01 vs R2-02 vs R2-03, same audience and landing page as Round 1. Budget, audience and launch are your decisions.
+**Suggested Round 3 (recommendation only):** R2C01 (new control) vs R3-01 vs R3-02 vs R3-03. Run **R3-07 (landing page)** separately or first, because changing the page and the ads at once muddies both.
+Keep A (CL01) only if you want a longer baseline. Budget, audience and launch are yours.
 
-## 5. Swipe-file entry (appended below)
+## 5. Process note for the next round
+After 2 practice rounds, every CPA comparison has been LOW confidence (all ads < 20 purchases).
+Options for YOU: run fewer ads per round, or run longer, so each ad reaches ~20–30+ purchases before deciding.
+The spend implication is your call.
 
 ## Human decisions required
-- Approve the Round 2 concepts → back to Agent 4/5 for full scripts and production briefs. → HUMAN DECISION REQUIRED
-- Keep Ad A as the control; decide on pausing D. → HUMAN DECISION REQUIRED
-- Any scaling: amount and timing are yours. These are hypotheses, not guaranteed improvements. → HUMAN DECISION REQUIRED
+- Make R2C01 the new control? Pause R2C02? → HUMAN DECISION REQUIRED
+- Approve the Round 3 concepts → back to Agent 4/5. → HUMAN DECISION REQUIRED
+- Landing-page test (R3-07) first or in parallel? → HUMAN DECISION REQUIRED
 
 ## Open questions
-1. Margin, refund rate and repeat rate, to judge whether A's CPA is actually profitable.
-2. Audience/placement breakdowns, to fill in the "winning audience" gap.
+1. Was the landing page updated before Round 2?
+2. Margin, refund rate and repeat rate (still missing after 2 rounds).
+3. Placement breakdown, to inform the 12s cut-down (R3-05).
 
 ---
 
@@ -68,3 +76,11 @@ Last updated: 2026-11-24
 - **Best attention:** Ad C / CL06 · Hook "The rub test every moisturizer should pass." · Hook rate 40%, CTR 2.0% (calc.), HIGH confidence on attention
 - **Avoid (hypothesis):** talk-only problem openers with no live product action in the first 3s (Ad D)
 - **Next test:** C-hook + A-body hybrid (R2-01)
+
+### Round 2 · 🚨 PRACTICE DATA · 7 days · Meta · broad US 25–45 (same setup)
+- **Best converter:** Ad B / R2C01 · Hook: real-time rub test, "The rub test every moisturizer should pass." · Body: founder + 60-day guarantee, arriving early · CTA: Shop Now / "Try it for 60 days" · CPA $17.65 (calc.), 17 purchases, LOW confidence (vs control p≈0.42)
+- **Confirmed (high confidence, attention only):** live-product-action hooks beat the talking founder hook (37.7–39.4% vs 24.5% hook rate)
+- **Learned (hypothesis):** the guarantee works **early in the ad**, not as an end card (R2C02 CVR 2.76%)
+- **Learned (hypothesis):** a better hook alone doesn't lower CPA if the body is unchanged (R2C03)
+- **Watch:** shared post-click CVR ceiling (~3.6–3.95%), so test the landing page
+- **Next test:** R2C01 control vs R3-01 (empty-jar + rub-test hook) / R3-02 (guarantee at 3s) / R3-03 (creator)
