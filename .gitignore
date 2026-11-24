@@ -1,0 +1,13 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local / OS
+.DS_Store
+*.log
+.claude/settings.local.json
+
+# Optional: uncomment to keep client brand data out of git
+# brands/*/
+# !brands/_template/
