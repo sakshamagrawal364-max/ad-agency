@@ -37,7 +37,7 @@ CTA (12–15s): "60 days. Even if it's empty. Try it."
 Compliance check: "Most creams roll. Or sting." describes a category experience; keep it general and don't name brands.
 
 ### R2-01 — V3 (30s, founder + rub test bookend)
-HOOK (0–3s): Founder looks at camera, then rubs cream on her hand: "Before I tell you anything, watch this."
+HOOK (0–3s): Founder looks at camera, then rubs cream on their hand: "Before I tell you anything, watch this."
 PROBLEM (3–10s): "I've tried creams that felt like Vaseline and creams that stung. My bathroom drawer is a graveyard." `[VERIFY: founder's true story]`
 SOLUTION (10–18s): "CalmLayer has 14 ingredients: ceramides, cholesterol, niacinamide, panthenol, squalane. No fragrance."
 BENEFIT (18–22s): Return to the hand: rubbed in, smooth. "Light enough for under SPF."
