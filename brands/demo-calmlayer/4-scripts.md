@@ -1,138 +1,133 @@
-# 4 · Scripts — DEMO CalmLayer · ROUND 5
+# 4 · Scripts — DEMO CalmLayer · ROUND 6
 
 STATUS: DRAFT — awaiting human review
-Agent: agents/4-script-agent.md · Reads: 1-brand.md, 2-research.md, 3-angles.md, 7-winners.md (Round 4 close-out)
+Agent: agents/4-script-agent.md · Reads: 1-brand.md, 2-research.md, 3-angles.md, 7-winners.md (Round 5)
 Last updated: 2026-11-24
-Earlier scripts: `archive/4-scripts-round1/2/3/4-2026-11-24.md`
+Earlier scripts: `archive/4-scripts-round1/2/3/4/5-2026-11-24.md`
 
-> 🚨 Round 5 builds on Step 7 learnings from **PRACTICE data** the agent wrote for a fictional brand. These are hypotheses, not proven patterns.
-> **Direction:** new territory, not more variants. The rub-test creative family looks near its ceiling (practice), so Round 5 tests **new angles built on the winning structure**.
-> **Winning structure carried over:** live product action in the first second · guarantee overlay at 3–8s · founder body · CTA headline (your pick: "Try it for 60 days" or "Use the whole jar. Then decide.", a statistical tie in 4B) · → LP-B2.
-> **Global rules:** demos real-time and unedited, labels literally true · exact guarantee wording + "See site for terms" (≥ 3s, readable) · no drug/"repair"/"heal" claims; no "won't irritate" / "hypoallergenic" · no "your skin" · creators: #ad / Paid partnership, genuine experiences only · "Discontinue use if irritation occurs" when usage is shown · page claims = ad claims.
+> 🚨 Round 6 builds on Step 7 learnings from **PRACTICE data** the agent wrote for a fictional brand, including practice
+> assumptions for the CTA, audience 2 and unit economics. These are hypotheses, not proven patterns.
+> **New control:** R5C02 (patch test on the jaw → guarantee overlay at 3–8s → founder → "Try it for 60 days").
+> **Carried-over lessons:** live action first · guarantee early · new angles move results more than tweaks · reading-led openers suit warm audiences · margins are thin, so don't scale on CPA alone.
+> **Global rules:** demos real-time and unedited, labels literally true · exact guarantee wording + "See site for terms" (≥ 3s, readable) · no drug/"repair"/"heal" claims; no "won't irritate" / "hypoallergenic" / "safe for all sensitive skin" · first-person or product-focused copy (no statements about the viewer) · creators: #ad / Paid partnership, genuine experiences only · "Discontinue use if irritation occurs" whenever application is shown · page claims = ad claims.
+> **CTA headline:** "Try it for 60 days" was a practice assumption in Round 5. Replace it with your real pick `[HUMAN PICK]` and keep it the same on all Round 6 ads.
 
-### Control reference: R3C02 (unchanged, 20s)
-0–3s rub-test macro, "The rub test every moisturizer should pass." → 3–8s rub test + guarantee lower third → 8–11s founder: "Sensitive skin makes every new moisturizer a gamble." → 11–14s jar: "fragrance-free, light, and doesn't pill." → 14–17s rubbed-in hand, "One take. No edits." → 17–20s guarantee VO + CTA headline.
-**CTA headline for the control in Round 5:** `[HUMAN PICK]`. Whichever you choose, use the **same headline on all Round 5 ads** so the CTA isn't a hidden variable.
+### Control reference: R5C02 (unchanged, 20s)
+0–3s real-time dab on the jaw, "How I try anything new on sensitive skin." → 3–8s patch spreads + guarantee lower third → 8–11s founder: "Trying a new moisturizer always felt like a gamble for me." → 11–14s "So I patch test first, a small spot for a few days, before using it all over." → 14–17s jar: "fragrance-free, with 14 ingredients, and you've got 60 days to decide." → 17–20s CTA headline + "Discontinue use if irritation occurs."
 
-**Round 5 test set:** R3C02 (control) vs **R5-01** vs **R5-02** → LP-B2 (3 versions each below; suggested V1s).
-**Run separately:** R5-04 audience test (control ad only, no new script).
-**Backlog:** R5-03 (SPF split screen), R5-05 (creator + creator-matched page).
-**Ongoing, not an ad:** R5-06 real-review collection (request templates below).
-
----
-
-## R5-01 · "Fewer ingredients, fewer surprises" rebuilt with the winning structure
-*New angle (C4). Round 1's static label scroll had weak attention (practice). This version opens with live product action and puts the guarantee at 3s.*
-
-### R5-01 — V1 (20s, live label reveal)
-HOOK (0–3s): Macro, real time: a hand rotates the jar and the camera follows the full ingredient list wrapping around the label. *On-screen:* "The entire ingredient list. 14 ingredients."
-GUARANTEE (3–8s): Label continues to turn + lower third: "60-day money-back guarantee, even if the jar is empty. See site for terms."
-PROBLEM (8–11s): Founder: "Sensitive skin made me suspicious of long ingredient lists."
-SOLUTION (11–14s): "So CalmLayer has 14: ceramides, cholesterol, niacinamide, panthenol, squalane… and no fragrance."
-PROOF (14–17s): Label close-up, ingredients highlighted one by one (the real INCI, readable).
-CTA (17–20s): Founder: "Read it all. Then try it for 60 days." + CTA headline `[HUMAN PICK]`
-Compliance check: the INCI shown must match the real pack exactly · "suspicious of long lists" is the founder's opinion and experience `[VERIFY: true for founder]` · no claim that fewer ingredients means no reactions.
-
-### R5-01 — V2 (20s, "count them" challenge)
-HOOK (0–3s): Founder's finger taps each ingredient on the label as a counter climbs on screen: "1… 2… 3…" (real time, fast).
-GUARANTEE (3–8s): The counter continues to "14" + guarantee lower third.
-PROBLEM (8–11s): Founder: "Most moisturizers I tried had lists I couldn't get through."
-SOLUTION (11–14s): "This one fits on one side of the jar. No fragrance, no essential oils."
-PROOF (14–17s): Jar held up, full label readable.
-CTA (17–20s): CTA headline `[HUMAN PICK]`
-Compliance check: "most moisturizers I tried" is personal experience, not a market claim · the count must be accurate (14).
-
-### R5-01 — V3 (20s, ingredient + rub-test bridge)
-HOOK (0–3s): Live label rotation (as V1). *On-screen:* "14 ingredients."
-GUARANTEE (3–8s): Lower third.
-PROBLEM (8–11s): Founder: "Short list. But does it feel good on skin?"
-SOLUTION / PROOF (11–17s): Cut to the rub-test macro (control footage). "One take. No edits."
-CTA (17–20s): CTA headline `[HUMAN PICK]`
-Compliance check: as V1.
-**Note:** this reuses the control's proof shot, so it's closer to the control than V1/V2. Use it as an alternate if the human wants a smaller jump.
+**Round 6 test set:** R5C02 (control) vs **R6-01** vs **R6-02** → LP-B2, the same audience mix (broad + skincare-interest) for all ads.
+**Separate test:** R6-04 retargeting with a label-reveal variant (if you choose to run retargeting).
+**No script needed:** R6-05 (R5C02 on the skincare-interest ad set is covered by the shared audience mix above).
+**Backlog:** R6-03 (patch-test diary).
+**Gated:** R6-06 testimonial ad, only once real, consented reviews exist.
 
 ---
 
-## R5-02 · "What if I react?": the patch-test angle
-*New angle (C9). Speaks to the core sensitive-skin fear. The patch-test guidance must be verified before production.*
+## R6-01 · Combined hook: patch test + rub test (body unchanged)
+*Changes: the first 3 seconds only. Combines the two strongest openers (R5C02's patch test, R3C02's rub test).*
+*Round 3 warning: stacking hooks before (R3C01) raised the hook rate but hurt hold and conversion. These versions keep the combined opening to 3s so the guarantee still lands at 3s.*
 
-### R5-02 — V1 (20s, patch test on camera)
-HOOK (0–3s): Macro, real time: the founder dabs a small amount of cream on the side of their jaw. *On-screen:* "Sensitive skin? Here's how I try anything new."
-GUARANTEE (3–8s): The dab continues + lower third: "60-day money-back guarantee, even if the jar is empty. See site for terms."
+### R6-01 — V1 (20s, sequential: jaw → hand)
+HOOK (0–1.5s): Real-time dab on the jaw. *On-screen:* "Patch test first…"
+HOOK (1.5–3s): Hard cut to the rub-test macro on the hand. *On-screen:* "…then the rub test."
+GUARANTEE (3–8s): Rub test continues + lower third: "60-day money-back guarantee, even if the jar is empty. See site for terms."
 PROBLEM (8–11s): Founder: "Trying a new moisturizer always felt like a gamble for me."
-SOLUTION (11–14s): "So I patch test first, a small spot for a few days, before using it all over." `[VERIFY: patch-test guidance wording]`
-BENEFIT (14–17s): "CalmLayer is fragrance-free, with 14 ingredients, and you've got 60 days to decide."
-CTA (17–20s): CTA headline `[HUMAN PICK]` + on-screen "Discontinue use if irritation occurs."
-Compliance check: the hook says "Sensitive skin?" as a **topic label**, not a statement about the viewer (it doesn't say "your skin is sensitive"). Legal check that this reads as a topic under Meta's personal-attributes policy; fallback hook: "How I try anything new on sensitive skin." · no "won't irritate" · patch-test advice verified.
-
-### R5-02 — V2 (20s, day-by-day patch-test diary)
-HOOK (0–3s): Three quick real clips labelled "Day 1 / Day 2 / Day 3" of the same jawline patch (the founder's own skin, no filters).
-GUARANTEE (3–8s): Lower third over the Day 3 clip.
-PROBLEM (8–11s): Founder: "I always patch test now. I learned the hard way."
-SOLUTION (11–14s): "This is what I did with CalmLayer before using it everywhere."
-BENEFIT (14–17s): "And if it's not for you, even after the whole jar, you get your money back."
+SOLUTION (11–14s): "So I patch test first, and I check that it doesn't pill." `[VERIFY: patch-test guidance]`
+BENEFIT (14–17s): Jar: "Fragrance-free, 14 ingredients, and 60 days to decide."
 CTA (17–20s): CTA headline `[HUMAN PICK]` + "Discontinue use if irritation occurs."
-Compliance check: the diary footage must be real, from those days, and unfiltered · it shows the founder's **own** experience, not a typical result · no implication that a patch test guarantees no reaction · add "Individual experiences vary."
+Compliance check: both shots real-time · no "One take" label unless a shot really is one take · the patch-test guidance verified.
 
-### R5-02 — V3 (15s, checklist + live action)
-HOOK (0–3s): A real-time dab on the jaw + text: "Before you try new skincare:"
-GUARANTEE (3–7s): Lower third.
-BODY (7–13s): Animated checklist over the footage: ✓ Patch test first ✓ Fragrance-free ✓ Short ingredient list ✓ 60 days to decide
-CTA (13–15s): CTA headline `[HUMAN PICK]`
-Compliance check: "Before you try new skincare" is general advice, not a statement about the viewer · checklist items are accurate.
+### R6-01 — V2 (20s, split-screen opener)
+HOOK (0–3s): Split screen, both real time: left = dab on the jaw, right = rub test on the hand. *On-screen:* "My two tests for anything new."
+GUARANTEE → CTA (3–20s): identical to the control from 3s.
+Compliance check: both halves real; no speed changes.
+
+### R6-01 — V3 (20s, reverse: hand → jaw)
+HOOK (0–1.5s): Rub test on the hand. *On-screen:* "Does it pill?"
+HOOK (1.5–3s): Cut to the dab on the jaw. *On-screen:* "Will it bother my skin?"
+GUARANTEE → CTA (3–20s): identical to the control.
+Compliance check: "Will it bother my skin?" is the founder's own question (first person), not a claim that it won't · the body doesn't answer it with a promise; the guarantee and "discontinue use" do the work.
+
+**Suggested:** V1 (closest to the control's proven opening, with the shortest delay before the guarantee).
 
 ---
 
-## Backlog (one script each)
+## R6-02 · Creator presenter, their own patch-test habit
+*Changes: the presenter only (founder → creator). Structure and timing match the control.*
+*The creator must genuinely patch test new products. If that isn't their real habit, don't cast them for this.*
 
-### R5-03 · SPF-layering split screen as its own ad (20s)
-HOOK (0–3s): Split screen, real time: two forearm patches, each with a moisturizer rubbed in, then the same SPF applied over both. *On-screen:* "Moisturizer + SPF. Watch for pilling."
+### R6-02 — V1 (20s, creator follows the control structure)
+HOOK (0–3s): Real-time dab on the **creator's** jaw. *On-screen:* "How I try anything new on sensitive skin." + small "#ad"
+GUARANTEE (3–8s): Patch spreads + lower third: guarantee + terms.
+PROBLEM (8–11s): Creator: "New skincare makes me nervous, so I always test it first." *(true for them)*
+SOLUTION (11–14s): "Small spot, a few days. That's what I did with this one." `[VERIFY: the creator actually did this with CalmLayer]`
+BENEFIT (14–17s): Jar: "It's fragrance-free, 14 ingredients, and they give you 60 days to decide."
+CTA (17–20s): CTA headline `[HUMAN PICK]` + "Discontinue use if irritation occurs." + "#ad"
+Compliance check: Paid partnership + #ad early · the creator's statements are true and reflect their own experience · no outcome claims ("my skin cleared", "no redness") unless genuinely their experience, and even then add "Individual experiences vary."
+
+### R6-02 — V2 (25s, creator explains their routine)
+HOOK (0–3s): Creator at the mirror, dabbing the jaw: "This is my rule for every new product."
 GUARANTEE (3–8s): Lower third.
-BODY (8–15s): Left (generic heavy cream, unbranded) vs right (CalmLayer), both rubbed for the same time.
-PROOF (15–17s): "One take. No edits." + caption "Tested with a [mineral/chemical] SPF. Results can vary with other products."
-CTA (17–20s): CTA headline `[HUMAN PICK]`
-Compliance: the comparison cream is unidentifiable · same amount, same SPF, same rubbing time on both sides · the result shown is what happened.
+BODY (8–20s): Creator explains their patch-test habit in their own words (unscripted except for the factual product lines), then shows the jar.
+CTA (20–25s): "They give you 60 days, even if it's empty. #ad" + CTA headline
+Compliance check: unscripted parts are reviewed for claims before posting · factual lines said exactly.
 
-### R5-05 · Creator ad → creator-matched page
-Ad: R4C02 unchanged (creator, control timing, #ad).
-Page: LP-B2 with two changes: (1) the top video swapped to the creator's own rub-test clip; (2) one line under the headline: "Why [Creator first name] tried it: '[their real words, with consent]'", plus "[Name] is a paid partner."
-Compliance: the creator's written consent for page use · the quote is their real words, unedited for meaning · disclosure on the page.
+### R6-02 — V3 (20s, creator + founder)
+HOOK (0–3s): Creator's patch test.
+BODY (3–14s): Creator: "I always patch test." → cut to the founder (control footage): "Which is exactly why there's a 60-day guarantee."
+CTA (14–20s): CTA headline + "#ad" + "Discontinue use if irritation occurs."
+Compliance check: as V1.
+**Note:** this mixes two presenters (two variables), so keep it as an alternate, not in the main test.
 
-### R5-04 · Audience test (no new script)
-The control ad (R3C02) unchanged, to a second audience **you** choose vs broad. Ad copy contains no personal-attribute language. The audience choice is yours.
+**Suggested:** V1 (one variable vs the control).
 
 ---
 
-## R5-06 · Real-review collection (not an ad)
-*Goal: gather genuine, consented customer feedback to use on LP-B2 and, later, in a testimonial ad. Follows the FTC Consumer Review rule and the Endorsement Guides.*
+## R6-04 · Retargeting variant: label reveal for warm audiences (separate test)
+*Based on R5C01 (best on-page conversion, weaker cold hook). The audience choice (e.g., site visitors, video viewers) is yours and must follow platform and privacy rules.*
+*Copy must not state or imply what we know about the viewer ("You looked at our cream yesterday"). Keep it general.*
 
-### Post-purchase review request: email (sent ~3 weeks after delivery)
-**Subject:** How's CalmLayer treating you?
-**Body:**
-"Hi [first name],
-You've had CalmLayer for about three weeks. We'd love your honest opinion, good, bad or in between.
-→ [Leave a review]
-Every review we receive is published as written (we only remove spam, abuse or personal information).
-And if it isn't working for you, reply to this email. Your 60-day guarantee still applies.
-— [Founder first name], CalmLayer"
+### R6-04 — V1 (15s, warm-audience reminder)
+HOOK (0–3s): Live label rotation (R5C01 footage). *On-screen:* "Still deciding? Here's everything in it."
+GUARANTEE (3–7s): Lower third: guarantee + terms.
+BODY (7–12s): Founder: "14 ingredients. No fragrance. And 60 days to decide, even if you finish the jar."
+CTA (12–15s): CTA headline `[HUMAN PICK]`
+Compliance check: "Still deciding?" is a general question, not a statement of tracked behaviour · INCI matches the pack.
 
-Compliance:
-- Ask **all** customers, not just happy ones (no review gating).
-- Publish negative reviews too; don't suppress them.
-- **No incentive tied to a positive review.** If you offer any incentive (e.g., a discount for *any* review), it must not depend on the sentiment, and it must be disclosed next to the review.
-- No employee/family reviews without disclosure.
+### R6-04 — V2 (10s, offer reminder static-motion)
+Label close-up + text: "14 ingredients · No fragrance · 60-day money-back guarantee" + "15% off your first order with email signup" (only if live) · CTA headline.
+Compliance check: offer conditions stated.
 
-### Testimonial ad consent request (for future use)
-"Hi [first name], thank you for your review. Would you be open to us using your words [and photo/video] in our ads? We'd show it exactly as you wrote it, with your first name only. No pressure at all; it's completely fine to say no."
-Compliance: written consent on file · quote used verbatim (or trimmed without changing meaning) · if a result is mentioned, the ad must reflect typical experiences or disclose that results vary.
+---
+
+## Backlog
+
+### R6-03 · Patch-test diary (25s)
+HOOK (0–3s): Real clips labelled "Day 1 / Day 2 / Day 3" of the founder's jaw patch (filmed on those actual days, same light, no filters).
+GUARANTEE (3–8s): Lower third.
+BODY (8–20s): Founder: "This is how I try anything new: a small spot for a few days, then the whole face if it feels right." `[VERIFY]`
+CTA (20–25s): CTA headline + "Discontinue use if irritation occurs." + "Individual experiences vary."
+Compliance check: the footage is genuinely from those days · the founder's own experience only, not a typical result.
+
+---
+
+## R6-06 · Testimonial ad (gated, template only)
+**Do not produce until:** real reviews have been collected via the R5-06 process, the customer has given written consent, and the quote is used verbatim.
+
+### Template (20s)
+HOOK (0–3s): `[REAL CUSTOMER first name]`'s real photo or video (their own footage, with consent) + their real quote as on-screen text: `"[VERBATIM QUOTE]"`
+GUARANTEE (3–8s): Lower third.
+BODY (8–15s): Founder: "This is from `[first name]`, one of our customers." + jar.
+CTA (15–20s): CTA headline + "Results vary." (if the quote mentions any outcome) + "Discontinue use if irritation occurs."
+Compliance check: FTC Endorsement Guides + Consumer Review rule: a real customer, no undisclosed incentive tied to the review, consent on file, no editing that changes meaning · don't choose only the most extreme results without "results vary".
 
 ## Human decisions required
-- Pick the CTA headline for all Round 5 ads ("Try it for 60 days" vs "Use the whole jar. Then decide."). → HUMAN DECISION REQUIRED
-- Approve R5-01 V1 and R5-02 V1 (or other versions); verify the patch-test guidance and the founder's statements. → HUMAN DECISION REQUIRED
-- Legal check on the R5-02 hook wording under Meta's personal-attributes policy. → HUMAN DECISION REQUIRED
-- Approve the review-request email and consent template; choose the R5-04 audience. → HUMAN DECISION REQUIRED
+- Pick the real CTA headline for all Round 6 ads. → HUMAN DECISION REQUIRED
+- Approve R6-01 V1 and R6-02 V1 (or other versions); verify the patch-test guidance. → HUMAN DECISION REQUIRED
+- Cast a creator who genuinely patch tests (R6-02); contract + disclosure. → HUMAN DECISION REQUIRED
+- Decide whether to run the retargeting test (R6-04), and with which audience. → HUMAN DECISION REQUIRED
 
 ## Open questions
-1. Is the founder's "suspicious of long ingredient lists" / "learned the hard way" story true?
-2. Is there a review platform on the site that publishes all reviews unedited?
-3. Which second audience for R5-04?
+1. Are there any real reviews yet (the R6-06 gate)?
+2. Does the creator from earlier rounds genuinely patch test, or do we need a new creator?
+3. Is a retargeting audience available (pixel data, video viewers), and do you want to use it?
