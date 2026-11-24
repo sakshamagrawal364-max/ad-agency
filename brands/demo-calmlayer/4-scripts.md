@@ -1,131 +1,127 @@
-# 4 · Scripts — DEMO CalmLayer · ROUND 2
+# 4 · Scripts — DEMO CalmLayer · ROUND 3
 
 STATUS: DRAFT — awaiting human review
-Agent: agents/4-script-agent.md · Reads: 1-brand.md, 2-research.md, 3-angles.md, 7-winners.md
+Agent: agents/4-script-agent.md · Reads: 1-brand.md, 2-research.md, 3-angles.md, 7-winners.md (Round 2)
 Last updated: 2026-11-24
-Round 1 scripts: `archive/4-scripts-round1-2026-11-24.md`
+Earlier scripts: `archive/4-scripts-round1-2026-11-24.md`, `archive/4-scripts-round2-2026-11-24.md`
 
-> 🚨 Round 2 is based on Step 7 learnings drawn from **PRACTICE data** (fictional brand). They are hypotheses to test, not proven patterns.
-> **Built from:** winning hook = rub test (Ad C) · winning angle/body = 60-day empty-jar guarantee (Ad A) · winning CTA = "Try it for 60 days" · avoid = talk-only openers with no product action in the first 3s.
-> **Global rules:** every demo is one unedited, real-time take · guarantee wording = exact policy ("60-day money-back guarantee, even if the jar is empty") with terms on screen · no drug or "repair/heal" claims · no "your skin" · creators: #ad / Paid partnership and genuine experiences only · "Discontinue use if irritation occurs" where usage is shown.
+> 🚨 Round 3 builds on Step 7 learnings from **PRACTICE data** the agent wrote for a fictional brand. These are hypotheses, not proven patterns.
+> **New control:** R2C01 (rub-test hook → founder → guarantee early → "Try it for 60 days"). Every Round 3 script changes **one** variable from it.
+> **Carried-over lessons:** live product action in the first second · guarantee in the first third to half · hook changes need the winning body.
+> **Global rules:** demos are real-time and unedited, and on-screen labels must be literally true · exact guarantee wording + "See site for terms" (≥ 3s, readable) · no drug/"repair"/"heal" claims · no "your skin" · creators: #ad / Paid partnership, genuine experiences only · "Discontinue use if irritation occurs" when usage is shown.
 
-**Round 2 test set:** R2-01, R2-02, R2-03 (3 variations each) vs Ad A (CL01, unchanged control).
-**Backlog:** R2-04 to R2-08 (1 script each), for a later round.
+### Control reference: R2C01 (unchanged, 20s)
+0–3s rub-test macro, "The rub test every moisturizer should pass." → 3–6s founder: "Sensitive skin makes every new moisturizer a gamble." → 6–11s jar: "So I made one that's fragrance-free, light, and doesn't pill." → 11–17s rubbed-in hand, "One take. No edits." → 17–20s "Use the whole jar. Still not for you? Full refund. Try it for 60 days."
+
+**Round 3 test set:** R3-01, R3-02, R3-03 (3 versions each) vs the R2C01 control.
+**Backlog:** R3-04, R3-05, R3-06 (1 script each) · R3-07 = landing-page brief (not an ad).
 
 ---
 
-## R2-01 · Hybrid: C's rub-test hook → A's guarantee body
-*Keeps: A's guarantee body + CTA. Changes: the first 3 seconds become C's rub test.*
+## R3-01 · Hook: empty-jar scrape → rub test (body unchanged)
+*Changes: the first 3 seconds only. Combines R2C03's hook (the best hold rate) with R2C01's rub test.*
 
-### R2-01 — V1 (20s, founder, closest to the two originals)
-HOOK (0–3s): Macro: cream rubbed onto the back of a hand in real time. *On-screen:* "The rub test every moisturizer should pass."
-PROBLEM (3–6s): Founder VO: "Sensitive skin makes every new moisturizer a gamble."
-SOLUTION (6–11s): Cut to founder holding the jar: "So I made one that's fragrance-free, light, and doesn't pill."
-BENEFIT (11–14s): "Comfortable from day one, or you don't pay." (only as the guarantee framing below)
-PROOF (14–17s): The rub-test footage continues: no pilling. On-screen: "One take. No edits."
+### R3-01 — V1 (21s, sequential hooks)
+HOOK (0–1.5s): Top-down: spatula scrapes an almost-empty jar. *On-screen:* "Even if it's this empty…"
+HOOK (1.5–4s): Hard cut to the rub-test macro. *On-screen:* "…it should pass the rub test."
+PROBLEM (4–7s): Founder: "Sensitive skin makes every new moisturizer a gamble."
+SOLUTION (7–12s): Jar to camera: "So I made one that's fragrance-free, light, and doesn't pill."
+PROOF (12–18s): Rubbed-in hand. "One take. No edits."
+CTA (18–21s): "Use the whole jar. Still not for you? Full refund. Try it for 60 days."
+Compliance check: the empty jar illustrates the policy (not a customer's jar or a result) · "One take" applies only to the rub-test shot.
+
+### R3-01 — V2 (20s, split-screen hook)
+HOOK (0–3s): Split screen: left = empty-jar scrape, right = rub test, both in real time. *On-screen:* "Empty jar. No pilling. Both matter."
+PROBLEM → CTA: identical to the control from 3s on.
+Compliance check: both halves must be real footage; no speed changes.
+
+### R3-01 — V3 (20s, reverse order)
+HOOK (0–2s): Rub-test macro *(the control's opening)*.
+HOOK (2–4s): Cut to the scraped-empty jar. *On-screen:* "Used it all? Still refundable within 60 days."
+PROBLEM → CTA: control body from 4s on (the guarantee line at the end stays).
+Compliance check: "still refundable within 60 days" must match the policy; terms on screen.
+
+---
+
+## R3-02 · Guarantee moves to 3s (during the rub test)
+*Changes: only the timing of the guarantee. Tests the "earlier is better" lesson from R2C02 vs R2C01.*
+
+### R3-02 — V1 (20s, guarantee overlay at 3s)
+HOOK (0–3s): Rub-test macro, "The rub test every moisturizer should pass."
+GUARANTEE OVERLAY (3–8s): Lower third over the continuing rub test: "60-day money-back guarantee, even if the jar is empty. See site for terms."
+PROBLEM (6–9s): Founder: "Sensitive skin makes every new moisturizer a gamble."
+SOLUTION (9–14s): "So I made one that's fragrance-free, light, and doesn't pill."
+PROOF (14–17s): Rubbed-in hand. "One take. No edits."
 CTA (17–20s): "Use the whole jar. Still not for you? Full refund. Try it for 60 days."
-Visual notes: macro lens or phone 2× zoom, daylight; founder in the same setup as CL01 so only the hook changes.
-Compliance check: "doesn't pill" shown on camera, not just claimed · "or you don't pay" must match the policy exactly, otherwise cut it · on-screen terms: "60-day money-back guarantee. See site for details."
+Compliance check: overlay legible on mobile (≥ 3s, high contrast).
 
-### R2-01 — V2 (15s, faster cut, text-led)
-HOOK (0–2s): Rub test macro + "Watch for pilling."
-PROBLEM (2–4s): Text: "Most creams roll. Or sting."
-SOLUTION (4–8s): Text: "CalmLayer: fragrance-free, 14 ingredients."
-BENEFIT (8–10s): The rubbed-in skin looks smooth (same take).
-PROOF (10–12s): "Unedited."
-CTA (12–15s): "60 days. Even if it's empty. Try it."
-Compliance check: "Most creams roll. Or sting." describes a category experience; keep it general and don't name brands.
+### R3-02 — V2 (20s, spoken guarantee at 3s)
+HOOK (0–3s): Rub-test macro.
+GUARANTEE (3–6s): Founder VO over the macro: "Quick thing first: you get 60 days to try it, even if you use the whole jar."
+PROBLEM → PROOF (6–17s): as the control.
+CTA (17–20s): "Try it for 60 days." (the guarantee isn't repeated in full; terms on screen)
+Compliance check: the VO wording must match the policy.
 
-### R2-01 — V3 (30s, founder + rub test bookend)
-HOOK (0–3s): Founder looks at camera, then rubs cream on their hand: "Before I tell you anything, watch this."
-PROBLEM (3–10s): "I've tried creams that felt like Vaseline and creams that stung. My bathroom drawer is a graveyard." `[VERIFY: founder's true story]`
-SOLUTION (10–18s): "CalmLayer has 14 ingredients: ceramides, cholesterol, niacinamide, panthenol, squalane. No fragrance."
-BENEFIT (18–22s): Return to the hand: rubbed in, smooth. "Light enough for under SPF."
-PROOF (22–26s): "One take, no edits."
-CTA (26–30s): "Use the whole jar. Not for you? I'll refund you. 60 days."
-Compliance check: ingredient list matches the INCI · "light enough for under SPF" needs a real layering demo, or soften it to "light texture".
+### R3-02 — V3 (20s, guarantee as a persistent badge)
+Same as the control, with a small corner badge from 3s to the end: "60-day guarantee". Full terms in the last 3s.
+Hypothesis: is a constant reminder better than a single early mention? (Compare with V1.)
+Compliance check: the badge shouldn't cover the demo; full terms shown.
 
 ---
 
-## R2-02 · C's rub-test ad + guarantee end card
-*Keeps: all of C (CL06). Changes: adds a guarantee end card to fix C's weak click-to-purchase step.*
+## R3-03 · Founder → genuine creator (structure unchanged)
+*Changes: who's on camera. Is it the founder or the structure that converts?*
 
-### R2-02 — V1 (18s, CL06 + 3s end card)
-HOOK (0–3s): Same as CL06: "The rub test every moisturizer should pass."
-PROBLEM (3–6s): Generic heavy cream pilling (unbranded).
-SOLUTION (6–10s): CalmLayer rubbed in on the same spot.
-BENEFIT (10–13s): "No pilling."
-PROOF (13–15s): "One take. No edits."
-CTA / END CARD (15–18s): White card, jar centred: "60-day money-back guarantee, even if it's empty." Button text: "Try it for 60 days."
-Compliance check: end-card terms in small print · competitor product must be unidentifiable.
+### R3-03 — V1 (20s, creator follows the control structure)
+HOOK (0–3s): Rub-test macro on the creator's own hand. *On-screen:* "The rub test every moisturizer should pass."
+PROBLEM (3–6s): Creator: "My skin's sensitive, so new moisturizers make me nervous." *(only if true for this creator)*
+SOLUTION (6–11s): "This one's fragrance-free, light, and I didn't get pilling." *(their genuine experience)*
+PROOF (11–17s): Rubbed-in hand, real time. "One take."
+CTA (17–20s): "And it has a 60-day money-back guarantee, even if you finish the jar. #ad"
+Compliance check: Paid-partnership label + #ad · the creator must have actually used it · don't run it if their honest experience was negative · no scripted results.
 
-### R2-02 — V2 (18s, end card + offer)
-Same as V1, but the end card reads: "60 days, even if it's empty · 15% off your first order."
-Compliance check: the offer must be live; state "with email signup" if that's the condition.
+### R3-03 — V2 (25s, creator first-try)
+HOOK (0–3s): Creator opens the jar on camera: "First time trying this. Rub test, live."
+PROBLEM (3–7s): "If a moisturizer pills or stings on me, I'm out."
+SOLUTION / PROOF (7–18s): Applies it to the hand, then the cheek, reacting naturally (real time).
+BENEFIT (18–21s): Genuine first impression (unscripted; only the factual claims are checked).
+CTA (21–25s): "They give you 60 days, even if it's empty. Link below. #ad"
+Compliance check: a "first impression" is not a long-term result, so don't imply one · add "Discontinue use if irritation occurs."
 
-### R2-02 — V3 (20s, guarantee as on-screen subtitle throughout)
-Same footage as CL06 with a persistent lower-third: "60-day money-back guarantee". Final 3s: "Try it for 60 days."
-Hypothesis: risk reversal visible the whole time vs only at the end (compare with V1).
-Compliance check: as above.
-
----
-
-## R2-03 · A's founder + guarantee, new hook: the scraped-empty jar
-*Keeps: A's founder body + CTA. Changes: the hook becomes a visual of the "even if it's empty" promise.*
-
-### R2-03 — V1 (15s)
-HOOK (0–3s): Close-up: a spatula scraping an almost-empty jar. *On-screen:* "Even if it's this empty."
-PROBLEM (3–6s): Founder: "Sensitive skin makes every new product a gamble."
-SOLUTION (6–9s): "So CalmLayer comes with a 60-day guarantee."
-BENEFIT (9–12s): "Use the whole jar. Really try it."
-PROOF (12–13s): On-screen policy terms.
-CTA (13–15s): "Still not for you? Full refund. Try it for 60 days."
-Compliance check: the jar is a real used jar (no staged fake "used" product claims; it's an illustration of the policy, fine as long as it doesn't claim to be a customer's jar).
-
-### R2-03 — V2 (20s, POV)
-HOOK (0–3s): "POV: you used the whole jar and still want a refund."
-PROBLEM (3–7s): Scraped-empty jar on a counter.
-SOLUTION (7–13s): Screen recording: refund request form → confirmation (a real flow on the site).
-BENEFIT (13–16s): Founder: "That's the deal. 60 days."
-PROOF (16–18s): Policy terms on screen.
-CTA (18–20s): "Try it risk-free." (only if there's no return-shipping cost or other catch; otherwise "Try it for 60 days")
-Compliance check: the refund flow shown must be the real process · no implied speed ("instant refund") unless true.
-
-### R2-03 — V3 (12s, static-motion)
-HOOK (0–2s): Photo of an empty jar. Text: "Empty jar? Still refundable."
-BODY (2–9s): "Fragrance-free barrier cream for sensitive skin. 60-day money-back guarantee."
-CTA (9–12s): "Try it for 60 days."
-Compliance check: "still refundable" within 60 days only; say so.
+### R3-03 — V3 (20s, creator + founder)
+HOOK (0–3s): Creator's rub test.
+PROBLEM (3–8s): Creator: "Sensitive skin, so I always ask about returns."
+SOLUTION (8–14s): Cut to the founder (the control footage): "So we made it simple: 60 days, even if the jar's empty."
+PROOF (14–17s): Rubbed-in hand.
+CTA (17–20s): Creator: "Try it for 60 days. #ad"
+Compliance check: as V1. This version blends two variables (creator + founder); keep it as an alternate, not in the main test.
 
 ---
 
-## Backlog (one script each, for a later round)
+## Backlog (one script each)
 
-### R2-04 · Guarantee angle, creator UGC instead of founder (20s)
-HOOK: Creator: "Okay, a brand told me I can use the whole jar and still get a refund. Let's see." · PROBLEM "Sensitive skin, trust issues." · SOLUTION applies it on camera · BENEFIT their genuine first impression · PROOF rub-in shot · CTA "60 days, link below. #ad"
-Compliance: the creator's real reaction; if negative, don't run it. Paid-partnership label.
+### R3-04 · CTA headline test (control unchanged)
+Video identical to R2C01. Only the headline next to the button changes: **"Use the whole jar. Then decide."** (vs "Try it for 60 days").
+Compliance: the wording is consistent with the policy.
 
-### R2-05 · Rub test → split-screen layering under SPF (25s)
-HOOK: "Moisturizer + SPF. Same arm. 60 seconds." · SOLUTION split screen: generic heavy cream + SPF vs CalmLayer + SPF · PROOF real time · CTA "Try it for 60 days."
-Compliance: caption "Tested with a [mineral/chemical] SPF; results can vary with other products."
+### R3-05 · 12s cut-down of the control
+0–2s rub test, "The rub test every moisturizer should pass." · 2–5s founder: "Fragrance-free, light, no pilling." · 5–9s rubbed-in hand, "One take." · 9–12s "60 days, even if it's empty. Try it." + terms
+Compliance: terms on screen ≥ 3s (a tight squeeze at 12s; extend to 13s if needed).
 
-### R2-06 · Rub-test hook → "What if I react?" body (25s)
-HOOK: rub-test macro · PROBLEM "Scared to try new skincare?" · SOLUTION patch-test guidance `[VERIFY]` · BENEFIT "And if it's not for you, 60-day refund." · CTA "Try it for 60 days."
-Compliance: "Discontinue use if irritation occurs."
+### R3-06 · Control + SPF layering proof (25s)
+Control 0–11s → **11–19s split screen: CalmLayer + SPF vs a generic heavy cream + SPF, rubbed in real time** → 19–25s guarantee + CTA.
+Compliance: caption "Tested with a [mineral/chemical] SPF; results can vary with other products." Comparison cream unidentifiable.
 
-### R2-07 · Ad A unchanged, CTA wording test
-Identical to CL01; only the headline next to the button changes: "Try it for 60 days" (vs Round 1's "Shop now").
-Compliance: none new.
-
-### R2-08 · "Suffocating creams" angle as a texture demo (15s)
-HOOK: jar-open sound + swirl macro (no talking) · PROBLEM text: "Barrier creams shouldn't feel like a face mask." · SOLUTION light texture spread on the cheek · CTA "Try it for 60 days."
-Hypothesis: tests whether Ad D failed on angle or execution.
+### R3-07 · Landing-page brief (not an ad)
+Above the fold: (1) a 3–5s looping rub-test GIF (the same real footage) · (2) headline "The rub test every moisturizer should pass" · (3) "60-day money-back guarantee, even if the jar is empty" + terms link · (4) "Fragrance-free · 14 ingredients" · (5) Add to cart.
+Run it as a **separate test** (page A vs page B, same ad) so ad and page effects aren't mixed.
+Compliance: page claims = ad claims; no reviews section until real reviews exist.
 
 ## Human decisions required
-- Approve the R2-01/02/03 scripts for production; verify the founder story (R2-01 V3) and the refund flow (R2-03 V2). → HUMAN DECISION REQUIRED
-- Confirm the guarantee terms (any return-shipping cost?) before using "risk-free". → HUMAN DECISION REQUIRED
-- Choose one variation per concept for the Round 2 test (suggested: R2-01 V1, R2-02 V1, R2-03 V1 vs control Ad A). → HUMAN DECISION REQUIRED
+- Approve the R3-01/02/03 scripts; pick one version each (suggested: V1s, to keep one variable per ad). → HUMAN DECISION REQUIRED
+- Book a creator for R3-03 (they must genuinely use the product; paid-partnership disclosure). → HUMAN DECISION REQUIRED
+- Decide whether to run the landing-page test (R3-07) before, after or instead of the ad test. → HUMAN DECISION REQUIRED
 
 ## Open questions
-1. Is there a real SPF layering demo yet? (Needed for R2-01 V3 and R2-05.)
-2. Does the refund process have any conditions (proof of purchase, one per customer)?
+1. Was the landing page updated before Round 2? (It changes whether R3-07 is needed.)
+2. Is a creator available whose genuine skin experience fits (sensitive skin)?
