@@ -1,74 +1,71 @@
-# 7 · Winners — DEMO CalmLayer · ROUND 3
+# 7 · Winners — DEMO CalmLayer · ROUND 4, PHASE 4A (landing page)
 
 STATUS: DRAFT — PRACTICE DATA ONLY, awaiting human review
-Agent: agents/7-winner-agent.md · Reads: 3-angles.md, 4-scripts.md (R3), 5-creatives.md (R3), 6-testing.md (R3), archive/7-winners-round1 + round2
+Agent: agents/7-winner-agent.md · Reads: 4-scripts.md (R4), 5-creatives.md (R4), 6-testing.md (R4 · 4A), archive/7-winners-round1–3
 Last updated: 2026-11-24
-Earlier winners: `archive/7-winners-round1-2026-11-24.md`, `archive/7-winners-round2-2026-11-24.md`
+Earlier winners: `archive/7-winners-round1/2/3-2026-11-24.md`
 
 > 🚨 **Built on PRACTICE data** the agent wrote at the human's request for a fictional brand.
 > These "learnings" show how the method works. They are not evidence.
+> Phase 4A tested **pages, not ads**: one ad (R3C02) split across page A and LP-B. "Winner" here means the winning page.
 
 ---
 
 ## 1. Winner ranking (primary KPI: CPA)
 
-| Rank | Ad | Concept | CPA (calc.) | Supporting signals | Confidence | Label |
-|---|---|---|---|---|---|---|
-| 1 | C | **R3C02** guarantee overlay at 3s | **$14.29** | Best CVR 5.09%, ATC 16.7%, ATC→purchase 30.4%, ROAS 1.89 | CPA LOW–MODERATE (28 purchases; vs control p≈0.43) | **Leading candidate.** Recommended as the new control, pending ~30+ purchases each |
-| 2 | A | R2C01 control | $18.18 | Stable across 2 rounds ($17.65 → $18.18) | LOW–MODERATE (22) | Reliable baseline |
-| 3 | B | R3C01 stacked hook | $21.05 | Best hook 40.3% (HIGH), weaker hold + CVR | LOW | Hook win, sales loss |
-| 4 | D | R3C03 creator | $22.22 | Best CTR 2.18% (p≈0.008), best hold 34.0% (HIGH), lowest CVR 2.95% | LOW | Attention win, sales loss. Iterate, don't drop |
+| Rank | Page | CPA (calc.) | Supporting signals | Confidence | Label |
+|---|---|---|---|---|---|
+| 1 | **LP-B** (message-match page) | **$13.89** | LP-CVR 6.61%, ATC/LPV 21.7%, ROAS 1.94 | CPA LOW–MODERATE (36 purchases; p≈0.12–0.23) · ATC MODERATE (p≈0.012) | **Leading candidate.** Recommended as the default page, after a speed fix |
+| 2 | Page A (current) | $18.52 | Better LPV rate 87.0% (p≈0.0007) | LOW–MODERATE (27) | Former default |
 
-**Three-round arc (practice):** best CPA $21.43 (R1, CL01) → $17.65 (R2, R2C01) → $14.29 (R3, R3C02). Different weeks, small samples, numbers the agent chose. Directional only.
+**Recalibration from this round:** the control ad R3C02 cost **$18.52** on page A here vs **$14.29** in Round 3, which suggests part of Round 3's lead was noise. Its realistic range is about **$14 (LP-B) to $18 (page A)** in practice data.
 
 ## 2. Winning elements
 
 | Element | Winner | Detail | Why it *may* work (hypothesis) |
 |---|---|---|---|
-| **Hook** | Control/R3C02 (shared) | Real-time rub-test macro + "The rub test every moisturizer should pass." | Still the best-converting opening. B's extra empty-jar beat raised hook rate but not sales |
-| **Angle** | R3C02 | Proof (demo) + risk reversal, **shown together** | The demo answers "will it pill?" while the guarantee answers "what if I react?", both before viewers drop off |
-| **Structure** | R3C02 | **Guarantee overlay at 3–8s, during the demo** | Third practice round in a row where an earlier guarantee did better: end card (R2) < ~17s (R2C01) < 3s (R3C02) |
-| **Presenter** | Founder (A, C) | Founder outperformed the creator on CVR | A genuine creator wins attention; the founder may carry more trust for a guarantee message (hypothesis) |
-| **Creative format** | R3C02 | Macro demo + founder + lower-third text, unpolished | Unchanged from the control apart from the overlay, which isolates the variable |
-| **CTA** | All (held constant) | Shop Now + "Try it for 60 days" | **Still untested.** R3-04 has sat in the backlog for 2 rounds |
-| **Audience** | — | **DATA NOT PROVIDED** | Same single broad audience for 3 rounds; frequency rising (1.22 → 1.32) |
+| **Page hook** | LP-B | The same real rub-test loop at the top of the page | The visitor sees exactly what made them click (message match), with no context switch |
+| **Page headline** | LP-B | "The rub test every moisturizer should pass." (the same as the ad's hook) | Continuity between ad and page |
+| **Guarantee placement** | LP-B | Guarantee block above the fold, next to the price | The same "guarantee early" pattern from the ads (Rounds 2–3) now applies on the page |
+| **Trust copy** | LP-B | Full INCI + plain-English guarantee + an honest "Where are the reviews? We're new." FAQ | Transparency may replace the missing social proof (hypothesis; not isolated) |
+| **CTA** | LP-B | "Try it for 60 days" button | Not isolated this phase; page A's button wording: **DATA NOT PROVIDED** |
+| **Weakness** | LP-B | **7 pts more click drop-off before load** (80.1% vs 87.0%, high confidence) | Likely the autoplay video's load cost |
+| **Audience** | — | **DATA NOT PROVIDED** | The same broad audience, fourth round; frequency 1.37 |
 
 ## 3. Losers' lessons
-- **R3C01 (stacked hook):** a higher hook rate (+3 pts, high confidence) came with a **lower hold rate** (27.7%) and CVR. **Lesson (hypothesis): once a hook stops ~37% of viewers, adding seconds before the demo costs more than it gains. Get to the product faster.**
-- **R3C03 (creator):** the most engaged attention (CTR, hold) but the weakest post-click. **Lesson (hypothesis): a presenter change needs a matching landing experience; attention metrics alone can mislead.**
-- **Across 3 rounds:** hook rate has risen from ~25% to ~37–40%, so the **next constraint is post-click** (landing page, offer, trust), not the first 3 seconds.
+- **Page A:** loads faster but converts visitors worse. **Lesson (hypothesis): after the click, continuity with the ad matters more than a plain, fast page. Ideally get both (a message-match page that loads fast).**
+- **LP-B's own leak:** a heavy above-the-fold video costs visitors. **Lesson: every page change also needs a speed check.**
+- **Method lesson:** a CPA lead from one round (R3C02 in Round 3) shrank when re-run. **Re-test the leading idea before treating it as settled.**
 
-## 4. Round 4 variations (drafts; each changes one variable vs the new control R3C02)
+## 4. Next variations (drafts)
 
-| ID | Keeps (from R3C02) | Changes | Hypothesis | Compliance note |
-|---|---|---|---|---|
-| R4-01 | Whole ad | **Landing page B** (R3-07 brief: rub-test GIF + guarantee above the fold) | Lifts CVR across all ads; tests the post-click ceiling | Page claims = ad claims; no reviews until real |
-| R4-02 | Structure + guarantee at 3s | **Presenter → creator** (R3C03 footage + 3s overlay) | Combines the creator's attention with C's conversion structure | #ad / Paid partnership; genuine experience |
-| R4-03 | Whole ad | **CTA headline → "Use the whole jar. Then decide."** (R3-04) | The first real CTA test after 3 rounds | Matches the policy wording |
-| R4-04 | Whole ad | **12–13s cut-down** (R3-05 adapted with the 3s overlay) | Shorter may suit Reels/Stories; tests whether 20s is needed | Terms on screen ≥ 3s |
-| R4-05 | Hook + guarantee | **Body adds SPF-layering split screen** (R3-06) | Answers "will it pill under SPF?" for makeup/SPF users | Caption the SPF type; results vary |
-| R4-06 | Whole ad | **Guarantee overlay → spoken by the founder at 3s** (R3-02 V2) | Spoken vs on-screen guarantee | VO wording = policy |
-| R4-07 | Whole ad | **New audience option** (e.g., an interest-based sensitive-skin audience vs broad) | Frequency is rising on one audience | Audience choice is the human's; no personal-attribute targeting language in ads |
+**Page iterations (each changes one variable vs LP-B):**
+| ID | Changes | Hypothesis | Note |
+|---|---|---|---|
+| LP-B2 | **Speed fix:** poster image first, compressed loop loads after the page is interactive | Recovers the ~7-pt LPV loss without losing message match | Same footage, same claims |
+| LP-C | Shorter page (R4-01 V2: above the fold + terms + INCI accordion) | Less scrolling may lift purchases on mobile | Same claims |
+| LP-D | Guarantee-led headline (R4-01 V3: "Use the whole jar. Then decide.") | Hold until the R4-03 CTA test is read | — |
 
-**Suggested Round 4 (recommendation only):**
-- **First, R4-01 (landing-page test):** R3C02 → page A vs page B, run on its own so the page effect is clear.
-- **Then ads:** R3C02 (control) vs R4-02 vs R4-03. Three ads instead of four, so each reaches more purchases (Step 7 data-volume note).
-- Budget, duration, audience and launch are your decisions.
+**Ad test (Phase 4B, unchanged from the plan, all sent to LP-B2):**
+R3C02 (control) vs **R4C02** (creator, control timing) vs **R4C03** ("Use the whole jar. Then decide.").
 
-## 5. Process notes after 3 rounds
-- **Data volume improved** (10 days, two ads > 20 purchases) but still isn't conclusive. Fewer ads per round may help.
-- **Still missing for 3 rounds:** margin, refund rate, repeat rate. Without them, "lowest CPA" can't be called "most profitable", and the guarantee's refund cost is invisible.
-- **Audience reuse:** the same audience for 3 rounds; frequency is creeping up.
+**Suggested order (recommendation only):** fix the speed (LP-B2) → quick check that the LPV rate recovers → Phase 4B on LP-B2. LP-C and LP-D wait for later.
+Budget, duration, audience and launch are your decisions.
+
+## 5. Process notes after 4 rounds (practice)
+- **What moved the most:** hooks with live product action (R1→R2), the guarantee earlier (R2→R3), and message-match on the page (4A).
+- **What's still unknown:** CTA wording, presenter (creator vs founder on a matched page), audience, and profitability (margin, refunds, repeats still missing).
+- **Frequency:** 1.22 → 1.32 → 1.37 on one audience. An audience option (R4-07) is overdue for consideration.
 
 ## Human decisions required
-- Make R3C02 the new control? Pause R3C01? Iterate R3C03 (as R4-02)? → HUMAN DECISION REQUIRED
-- Run the landing-page test (R4-01) before the next ad round? → HUMAN DECISION REQUIRED
-- Approve the Round 4 concepts → back to Agent 4/5. → HUMAN DECISION REQUIRED
+- Adopt LP-B (with the speed fix) as the default page? → HUMAN DECISION REQUIRED
+- Run Phase 4B next, on LP-B2? → HUMAN DECISION REQUIRED
+- Consider a second audience? → HUMAN DECISION REQUIRED
 
 ## Open questions
-1. Margin, refund rate, repeat rate?
-2. Placement breakdown, especially for the R4-04 cut-down?
-3. Did R3C03 run from the creator's handle or the brand's?
+1. LP-B load time on mobile?
+2. Page A's button wording (to know whether the CTA differed between pages)?
+3. Margin, refund rate and repeat rate?
 
 ---
 
@@ -95,3 +92,10 @@ Earlier winners: `archive/7-winners-round1-2026-11-24.md`, `archive/7-winners-ro
 - **Learned (high confidence on attention only):** the creator earned the best CTR and hold rate but the lowest CVR. Attention ≠ purchase intent (R3C03)
 - **Watch:** frequency rising (1.32); post-click is now the main constraint
 - **Next test:** landing page B first (R4-01), then R3C02 vs R4-02 (creator + 3s guarantee) vs R4-03 (CTA wording)
+
+### Round 4 · Phase 4A (landing page) · 🚨 PRACTICE DATA · 10 days · Meta · broad US 25–45 · one ad (R3C02), 50/50 page split
+- **Winning page:** LP-B · rub-test loop + matching headline above the fold · guarantee block beside the price · full INCI + honest "we're new" FAQ · CPA $13.89 vs $18.52 (calc.), 36 vs 27 purchases, LOW–MODERATE confidence; ATC/LPV 21.7% vs 15.8% (p≈0.012, MODERATE)
+- **Learned (high confidence):** LP-B's above-the-fold video cost ~7 pts of click-to-page-view (80.1% vs 87.0%), so speed-check every page change
+- **Learned (method):** R3C02's Round 3 CPA ($14.29) didn't repeat on page A ($18.52). Single-round CPA leads can shrink; re-test before treating as settled
+- **Pattern (hypothesis):** "guarantee early + same demo as the ad" works on the page as well as in the ad
+- **Next test:** speed-fixed LP-B2 → Phase 4B: R3C02 vs R4C02 (creator) vs R4C03 ("Use the whole jar. Then decide.")
