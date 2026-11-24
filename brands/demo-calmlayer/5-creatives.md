@@ -1,135 +1,139 @@
-# 5 · Creatives — DEMO CalmLayer · ROUND 3
+# 5 · Creatives — DEMO CalmLayer · ROUND 4
 
 STATUS: DRAFT — awaiting human review
-Agent: agents/5-creative-agent.md · Reads: 1-brand.md, 3-angles.md, 4-scripts.md (Round 3), 7-winners.md (Round 2)
+Agent: agents/5-creative-agent.md · Reads: 1-brand.md, 3-angles.md, 4-scripts.md (Round 4), 7-winners.md (Round 3)
 Last updated: 2026-11-24
-Earlier creatives: `archive/5-creatives-round1-2026-11-24.md`, `archive/5-creatives-round2-2026-11-24.md`
+Earlier creatives: `archive/5-creatives-round1/2/3-2026-11-24.md`
 
-> 🚨 Round 3 rests on hypotheses drawn from **PRACTICE data** the agent wrote for a fictional brand.
-> Versions used: **V1 of each test concept** (the default suggested in 4-scripts.md; the human didn't pick others).
-> IDs (R3C…) map to Ad A/B/C/D at **manual** launch.
+> 🚨 Round 4 rests on hypotheses drawn from **PRACTICE data** the agent wrote for a fictional brand.
+> Versions used (the human didn't pick others): **R4-01 V1** (landing page), **R4-02 V1** (creator re-cut), **R4-03 V1** ("Use the whole jar. Then decide.").
+> IDs map to Ad / Page slots at **manual** launch.
 
-## Round 3 creative matrix
+## Round 4 plan at a glance
 
-| Slot | ID | Script | Variable vs control | Hook (first 3s) | CTA (button / headline) | Ratio | Length |
-|---|---|---|---|---|---|---|---|
-| **Ad A (control)** | R2C01 | Round 2 R2-01 V1 | — | Rub-test macro + "The rub test every moisturizer should pass." | Shop Now / "Try it for 60 days" | 9:16 (+4:5) | 20s |
-| Ad B | **R3C01** | R3-01 V1 | **Hook** (empty-jar → rub test) | Scrape + "Even if it's this empty…" → rub test + "…it should pass the rub test." | Shop Now / "Try it for 60 days" | 9:16 (+4:5) | 21s |
-| Ad C | **R3C02** | R3-02 V1 | **Guarantee timing** (overlay at 3s) | Same as control | Shop Now / "Try it for 60 days" | 9:16 (+4:5) | 20s |
-| Ad D | **R3C03** | R3-03 V1 | **Presenter** (creator instead of founder) | Rub test on the creator's hand | Shop Now / "Try it for 60 days" | 9:16 | 20s |
+| Phase | What's tested | Slots | Variable |
+|---|---|---|---|
+| **4A: landing page** (run first) | Page A (current) vs **LP-B** | Same ad R3C02 → page A / page B | Page only |
+| **4B: ads** (after 4A is read) | **R3C02** (control) vs **R4C02** vs **R4C03** | Ad A / B / C, all sent to the **winning page from 4A** | One variable per ad |
 
-**Separate test (recommended first or after, not at the same time):** **R3-07 landing page**, page A (current) vs page B (rub-test GIF + guarantee above the fold), sending the same control ad (R2C01) to both.
+**Why phases:** changing the page and the ads at once would make it impossible to tell which caused a change in CVR.
 
 ---
 
-## Production briefs
+## Phase 4A · LP-B production brief (landing page)
 
-### R3C01 · Empty-jar → rub-test hook · 21s
-**Reuses:** the R2C03 scrape footage (0–1.5s) and all of the R2C01 footage (from its 0s on). **New shooting: none**, so this is an edit-only job.
+### Wireframe (mobile, 390px wide)
+```
+┌──────────────────────────────┐
+│ [CalmLayer logo]        [cart]│
+├──────────────────────────────┤
+│ ▶ rub-test loop (4s, muted,   │  ← same real footage as the ad
+│   autoplay, 1:1, ≤ 1.5MB)     │
+├──────────────────────────────┤
+│ The rub test every           │  H1
+│ moisturizer should pass.     │
+│ Fragrance-free barrier cream │  Sub
+│ for sensitive skin. 14       │
+│ ingredients. Light, not      │
+│ greasy.                      │
+│ 🛡 60-day money-back          │  Guarantee block (bordered)
+│ guarantee, even if the jar   │
+│ is empty.  See terms ›       │
+│ $28 · 50ml                   │
+│ 15% off first order w/ email │  (only if live)
+│ [   Try it for 60 days   ]   │  Primary button
+├──────────────────────────────┤  ← fold (~700px)
+│ What's in it (all of it)     │
+│ How to use                   │
+│ The guarantee, plain English │
+│ FAQ (4 questions)            │
+│ [   Try it for 60 days   ]   │
+└──────────────────────────────┘
+```
 
-| # | Time | Shot | On-screen text | Audio |
+### Build specs
+- **Video:** export from the R3C02 rub-test footage, 4s loop, 1:1, H.264 MP4 ≤ 1.5MB + poster image; `muted autoplay loop playsinline`. Must be the same real, unedited footage (no speed ramp).
+- **Speed:** keep the above-the-fold load light (lazy-load everything below the fold). A slow page could cancel out the test. Check page speed before launch.
+- **Guarantee terms page:** linked from "See terms", and it states any conditions (shipping, one per customer) in plain language.
+- **Copy:** exactly as 4-scripts.md R4-01 V1. Items marked `[VERIFY]` must be confirmed first.
+- **Tracking:** the same pixel/events on both pages (ViewContent, AddToCart, Purchase), so the comparison is fair.
+- **Split:** 50/50 traffic from the same ad (R3C02) via the platform's A/B test or a split-URL tool. Your choice.
+
+### Compliance (page)
+- Every claim on the page appears in the approved ads, or is a label fact.
+- No reviews or star ratings section (none exist). The honest FAQ answer stands in.
+- Eczema/rosacea FAQ answer as drafted (cosmetic, not a treatment).
+- Pilling FAQ includes "Results can vary with other products."
+
+### What to measure in 4A
+Landing-page CVR (purchases ÷ landing-page views), add-to-cart rate, bounce/scroll depth if available, CPA. Ask the human to paste **landing-page views** this time (missing for 3 rounds).
+
+---
+
+## Phase 4B · Ad production briefs
+
+| Slot | ID | Script | Variable vs control | Production | Length | Ratio |
+|---|---|---|---|---|---|---|
+| Ad A | **R3C02** (control) | — | — | Already made | 20s | 9:16 + 4:5 |
+| Ad B | **R4C02** | R4-02 V1 | Presenter: founder → creator | **Re-edit** of R3C03 footage (if usage rights are extended) | 20s | 9:16 + 4:5 |
+| Ad C | **R4C03** | R4-03 V1 | CTA wording: "Use the whole jar. Then decide." | **Edit only**: change the last 3s of text + the headline | 20s | 9:16 + 4:5 |
+
+### R4C02 · Creator, control timing · 20s (re-edit)
+| # | Time | Source footage | On-screen text | Audio |
 |---|---|---|---|---|
-| 1 | 0–1.5s | R2C03 top-down scrape of an almost-empty jar | "Even if it's this empty…" | Scrape sound |
-| 2 | 1.5–4s | R2C01 rub-test macro (hard cut on the beat) | "…it should pass the rub test." | Rubbing sound |
-| 3 | 4–7s | R2C01 founder | — | "Sensitive skin makes every new moisturizer a gamble." |
-| 4 | 7–12s | R2C01 jar to camera | "Fragrance-free · 14 ingredients" | "So I made one that's fragrance-free, light, and doesn't pill." |
-| 5 | 12–18s | R2C01 rubbed-in hand | "One take. No edits." *(rub-test shot only)* | — |
-| 6 | 18–21s | Founder → jar | "60-day money-back guarantee, even if the jar is empty. See site for terms." | "Use the whole jar. Still not for you? Full refund. Try it for 60 days." |
+| 1 | 0–3s | R3C03 rub test on the creator's hand | "The rub test every moisturizer should pass." + "#ad" (top corner) | Rubbing sound |
+| 2 | 3–8s | R3C03 rub test continued (needs ≥ 8s of continuous footage) | Lower third: "60-day money-back guarantee, even if the jar is empty. See site for terms." | — |
+| 3 | 8–11s | R3C03 creator to camera | — | "My skin's sensitive, so new moisturizers make me nervous." |
+| 4 | 11–14s | R3C03 creator with jar | "Fragrance-free · 14 ingredients" | "This one's fragrance-free, light, and I didn't get pilling." |
+| 5 | 14–17s | R3C03 rubbed-in hand | "One take." | — |
+| 6 | 17–20s | R3C03 creator → jar | "Try it for 60 days" | "Use the whole jar. Still not for you? You get your money back." *(new VO line; record a pickup with the creator)* |
 
-**Platform copy (same as the control, so only the hook differs):**
-- Primary text: "Sensitive skin makes trying new moisturizers a gamble. CalmLayer is fragrance-free, made with 14 ingredients, and comes with a 60-day money-back guarantee, even if the jar is empty."
-- Headline: "Try it for 60 days" · Description: "15% off your first order with email signup"
+- **Pickup needed:** shot 6's VO is new wording. Book a 15-minute remote pickup recording with the creator. If the creator can't record it, use their original R3C03 end line plus on-screen guarantee text.
+- **Platform copy:** identical to the control (only the presenter differs). Keep "#ad" at the start of the primary text and turn on the Paid partnership label.
+- **Rights:** a written extension of the R3C03 usage rights (duration, Meta paid usage, whitelisting if used).
+- **Compliance:** the creator's statements stay true for them (re-confirm they still feel the same) · disclosure in the first seconds.
 
-**Compliance:** the empty jar is the founder's own and illustrates the policy, not a customer result · the "One take" label sits on the rub-test shot only.
+### R4C03 · CTA wording · 20s (edit only)
+| # | Time | Change |
+|---|---|---|
+| 1–5 | 0–17s | **No change** from R3C02 |
+| 6 | 17–20s | On-screen text: "Try it for 60 days" → **"Use the whole jar. Then decide."** + terms line unchanged. Founder VO unchanged. |
 
----
-
-### R3C02 · Guarantee overlay at 3s · 20s
-**Reuses:** all of the R2C01 footage. **Change:** add a lower-third from 3–8s, and adjust the timing of shots 2–4 so the overlay doesn't cover the founder's face.
-
-| # | Time | Shot | On-screen text | Audio |
-|---|---|---|---|---|
-| 1 | 0–3s | Rub-test macro | "The rub test every moisturizer should pass." | Rubbing sound |
-| 2 | 3–8s | Rub test continues (longer take from the same footage) | **Lower third:** "60-day money-back guarantee, even if the jar is empty. See site for terms." | — |
-| 3 | 8–11s | Founder | — | "Sensitive skin makes every new moisturizer a gamble." |
-| 4 | 11–14s | Jar to camera | "Fragrance-free · 14 ingredients" | "So I made one that's fragrance-free, light, and doesn't pill." |
-| 5 | 14–17s | Rubbed-in hand | "One take. No edits." | — |
-| 6 | 17–20s | Founder → jar | "Try it for 60 days." | "Use the whole jar. Still not for you? Full refund." |
-
-**Note:** the script had the founder starting at 6s while the overlay ran to 8s. The brief moves the founder to 8s, so the overlay sits on the demo and stays readable. **This needs a longer rub-test take (≥ 8s) from the original shoot. If the footage is shorter, re-shoot shot 1–2 as one 8s take.**
-
-**Platform copy:** identical to the control.
-**Lower-third spec:** high contrast (dark text on a semi-opaque light bar), ≥ 40px at 1080×1920, inside Reels-safe margins (keep clear of the bottom ~20% where Meta's UI sits).
-**Compliance:** terms readable for the full 5s.
+- **Headline** (next to the button): **"Use the whole jar. Then decide."** · Button: Shop Now · Primary text + description: identical to the control.
+- **Compliance:** the wording matches the 60-day policy · terms remain on screen ≥ 3s.
 
 ---
 
-### R3C03 · Creator version of the control · 20s
-**New shoot required.**
+## Asset checklist
+**Phase 4A**
+- [ ] Guarantee terms confirmed and published (shipping? conditions?)
+- [ ] Usage guidance `[VERIFY]` confirmed
+- [ ] Rub-test loop exported (≤ 1.5MB) and page speed checked
+- [ ] The same tracking events on pages A and B
+- [ ] 50/50 split set up (your tool choice)
 
-**Creator brief:**
-- **Who:** a creator with **genuinely** sensitive or reactive skin who doesn't normally use fragranced products. Age roughly 25–45 to match the audience. Comfortable with close-up hand and face shots without beauty filters.
-- **Before filming:** they use CalmLayer for **at least 1–2 weeks** in their real routine. If their honest experience is negative or they react, **we don't run this ad** (and we still pay them as agreed).
-- **What they say:** the structure is scripted; the experience isn't. They may only say things that are true for them. The factual product lines (fragrance-free, 14 ingredients, guarantee terms) must be said exactly.
-- **Disclosure:** Meta "Paid partnership" label + "#ad" spoken or on screen in the first few seconds + in the caption.
-- **Usage rights:** contract covers paid ad usage on Meta, duration, and whitelisting (if you choose to run it from their handle).
+**Phase 4B**
+- [ ] Phase 4A result read; the winning page chosen for all 4B ads
+- [ ] R3C03 usage rights extended in writing; creator pickup recorded (or the fallback chosen)
+- [ ] R3C03 rub-test footage ≥ 8s continuous (otherwise re-shoot with the creator)
+- [ ] Paid partnership label set up
+- [ ] Captions burned in; 9:16 + 4:5; Reels-safe text placement
 
-| # | Time | Shot | On-screen text | Audio |
-|---|---|---|---|---|
-| 1 | 0–3s | Macro: rub test on the **creator's** hand, real time, their own lighting | "The rub test every moisturizer should pass." + small "#ad" | Rubbing sound |
-| 2 | 3–6s | Creator to camera, natural light, no filter | — | "My skin's sensitive, so new moisturizers make me nervous." *(only if true)* |
-| 3 | 6–11s | Creator holds the jar | "Fragrance-free · 14 ingredients" | "This one's fragrance-free, light, and I didn't get pilling." *(their real experience)* |
-| 4 | 11–17s | Rubbed-in hand, real time | "One take." | — |
-| 5 | 17–20s | Creator → jar | "60-day money-back guarantee, even if the jar is empty. See site for terms." | "And it has a 60-day money-back guarantee, even if you finish the jar." |
-
-**Platform copy:**
-- Primary text: "[Creator first name] tried CalmLayer for [X] weeks. #ad Fragrance-free, 14 ingredients, and a 60-day money-back guarantee, even if the jar is empty." (fill in the real duration)
-- Headline: "Try it for 60 days" · Description: "15% off your first order with email signup"
-
-**Compliance:** FTC Endorsement Guides: the material connection is disclosed clearly and early; the experience is genuine; no claims the brand couldn't make itself · "Discontinue use if irritation occurs" in the caption.
-
----
-
-### R3-07 · Landing page B brief (separate test)
-**Above the fold, mobile first:**
-1. A looping 4s GIF/MP4 of the real rub test (the same footage as the ads)
-2. Headline: "The rub test every moisturizer should pass."
-3. Subhead: "Fragrance-free · 14 ingredients · for sensitive skin"
-4. Guarantee block: "60-day money-back guarantee, even if the jar is empty." + "See terms" link
-5. Price ($28) + "15% off your first order" (if live) + **Add to cart**
-
-**Below the fold:** full INCI list · how to use + "Discontinue use if irritation occurs" · guarantee terms · FAQ (pilling under SPF only if a real SPF demo exists).
-**Do not add:** reviews or star ratings (none exist yet), "dermatologist approved", or any claim that isn't in the ads.
-**Test setup:** the same control ad (R2C01) sends traffic to page A and page B (a split URL or the platform's tool). Run it separately from the Round 3 ad test.
-
----
-
-## Asset checklist (before launch)
-- [ ] R2C01 raw footage has a rub-test take ≥ 8s (for R3C02); otherwise re-shoot
-- [ ] R2C03 scrape clip available (for R3C01)
-- [ ] Creator contracted, product used for 1–2+ weeks, honest experience confirmed positive (R3C03)
-- [ ] Paid-partnership label set up (R3C03)
-- [ ] Guarantee terms page live and linked
-- [ ] Captions burned in; 9:16 masters + 4:5 crops; Reels-safe text placement
-- [ ] Decide the landing-page test timing (R3-07)
-
-## Suggested Round 3 test plan (recommendation only)
-- **Structure:** R2C01 (control) vs R3C01 vs R3C02 vs R3C03. Same audience, placements, landing page and offer as Rounds 1–2.
-- **Primary KPI:** CPA. **Diagnostics:** hook rate (R3C01), CVR and ATC rate (R3C02), hold rate and CTR (R3C03).
-- **Questions this round answers (hypotheses):**
-  1. R3C01: does stacking the two best hooks beat the rub-test hook alone?
-  2. R3C02: does showing the guarantee at 3s lift conversion vs ~17s?
-  3. R3C03: does a genuine creator convert as well as the founder?
-- **Data volume:** Step 7 noted that 2 rounds never reached ~20–30 purchases per ad. Options for YOU: run longer, or test 3 ads instead of 4. Budget and duration are your decisions.
+## Suggested test plan (recommendation only)
+- **4A:** one ad (R3C02), page A vs LP-B. Same audience and offer as Rounds 1–3. Primary: CPA and landing-page CVR.
+- **4B:** R3C02 vs R4C02 vs R4C03 → the winning page. Three ads, so each reaches more purchases (aim for ~30+).
+- **Audience note:** frequency has crept up over 3 rounds on one audience. The R4-07 audience option stays in the backlog; the choice is yours.
+- Budget, duration and launch for both phases are your decisions.
 
 ## After launch
-Archive `6-testing.md` → paste the Round 3 results with IDs R2C01 / R3C01 / R3C02 / R3C03 → `/run-agent demo-calmlayer 6`.
+- After 4A: archive `6-testing.md` → paste the **page A vs page B** results (include **landing-page views**) → `/run-agent demo-calmlayer 6`.
+- After 4B: the same, with IDs R3C02 / R4C02 / R4C03.
 
 ## Human decisions required
-- Approve the Round 3 briefs for production. → HUMAN DECISION REQUIRED
-- Creator selection, contract and disclosure (R3C03). → HUMAN DECISION REQUIRED
-- Landing-page test timing; audience, budget, schedule and manual launch. → HUMAN DECISION REQUIRED
+- Approve the LP-B build and the R4C02/R4C03 edits. → HUMAN DECISION REQUIRED
+- Creator rights extension + pickup. → HUMAN DECISION REQUIRED
+- Phase timing, audience, budget and manual launch. → HUMAN DECISION REQUIRED
 
 ## Open questions
-1. Is the original R2C01 rub-test take long enough (≥ 8s) for R3C02?
-2. Run the landing-page test (R3-07) before or after this ad round?
+1. Which tool will split page traffic (Meta A/B test vs a split-URL tool)?
+2. Can the site host an autoplay video above the fold without slowing the page?
