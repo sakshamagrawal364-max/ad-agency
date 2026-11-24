@@ -1,6 +1,6 @@
 # 1 · Brand — Minimalist
 
-STATUS: DRAFT — awaiting human review (4 intake fields still open)
+STATUS: DRAFT — defaults accepted by human 2026-11-24 (role still open)
 Agent: agents/1-brand-agent.md · Reads: Intake below
 Last updated: 2026-11-24
 
@@ -36,11 +36,13 @@ Last updated: 2026-11-24
 
 **Top competitors (India, active-ingredient skincare):** The Derma Co, Deconstruct, Dot & Key, Foxtale, Plum — [Inc42](https://inc42.com/startups/how-conscious-chemist-plans-to-build-an-inr-100-cr-brand-with-active-first-skincare), [YourStory](https://yourstory.com/2021/09/jaipur-based-skincare-brand-minimalist-transparency-beauty), [DSG](https://dsgcp.com/insights/building-indias-most-loved-highly-effective-yet-gentle-skincare-brand---why-we-partnered-with-deconstruct). Global reference: The Ordinary (ASSUMPTION — same ingredient-%-led model).
 
-**HUMAN — still needed:**
-1. Your role: in-house at Minimalist / agency / affiliate / spec work?
-2. Platforms (Meta? YouTube? Google?)
-3. Primary KPI (cost per purchase? ROAS?)
-4. Creative resources (creators? real customer before/afters with written consent?)
+**Defaults accepted by human (2026-11-24):**
+- Platforms: **Meta (Instagram + Facebook)**
+- Primary KPI: **CPA (cost per purchase)**
+- Hero product: **Salicylic Acid 2% Face Serum**
+- Creative resources: not specified, so concepts will assume creator UGC + product shots and flag anything needing real customers.
+- Also sold on **Nykaa** (listing found: [Nykaa reviews](https://www.nykaa.com/minimalist-2percent-salicylic-acid-face-serum-for-blackheads-whiteheads/reviews/15973485)).
+- **HUMAN — still open:** your role (in-house / agency / affiliate / spec).
 
 ---
 
