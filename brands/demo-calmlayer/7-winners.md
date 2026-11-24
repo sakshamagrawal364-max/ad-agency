@@ -1,73 +1,83 @@
-# 7 · Winners — DEMO CalmLayer · ROUND 4, PHASE 4B (ads on LP-B2) · ROUND 4 CLOSE-OUT
+# 7 · Winners — DEMO CalmLayer · ROUND 5 (angles · audience · profitability)
 
 STATUS: DRAFT — PRACTICE DATA ONLY, awaiting human review
-Agent: agents/7-winner-agent.md · Reads: 3-angles.md, 4-scripts.md (R4), 5-creatives.md (R4), 6-testing.md (R4 · 4B), archive/7-winners-round1–3 + 4A
+Agent: agents/7-winner-agent.md · Reads: 3-angles.md, 4-scripts.md (R5), 5-creatives.md (R5), 6-testing.md (R5), archive/7-winners-round1–4B
 Last updated: 2026-11-24
-Earlier winners: `archive/7-winners-round1/2/3/4A-2026-11-24.md`
+Earlier winners: `archive/7-winners-round1/2/3/4A/4B-2026-11-24.md`
 
-> 🚨 **Built on PRACTICE data** the agent wrote at the human's request for a fictional brand.
-> These "learnings" show how the method works. They are not evidence.
+> 🚨 **Built on PRACTICE data** the agent wrote at the human's request for a fictional brand, including practice
+> assumptions for the CTA headline, audience 2 and the unit economics. These "learnings" show how the method works. They are not evidence.
 
 ---
 
-## 1. Winner ranking (primary KPI: CPA)
+## 1. Winner ranking
 
-| Rank | Ad | Concept | CPA (calc.) | Supporting signals | Confidence | Label |
+### 5A · Angles (primary KPI: CPA; secondary: profit per first order, calculated from practice unit economics)
+| Rank | Ad | Concept | CPA (calc.) | Profit / first order (calc.) | Supporting signals | Confidence | Label |
+|---|---|---|---|---|---|---|---|
+| 1 | C | **R5C02** patch test on camera | **$10.64** | **+$4.47** | Hook 42.9%, CTR 2.24%, hold 35.6% | Attention HIGH (p<0.001) · CPA directional (p≈0.16) | **Leading candidate.** Recommended as the new control |
+| 2 | B | R5C01 live label reveal | $12.82 | +$2.29 | Best LP-CVR 7.65%, but hook 32.1% (lower, HIGH confidence) | CPA LOW | **Niche candidate.** Possibly suited to warmer audiences (untested) |
+| 3 | A | R3C02 rub-test control | $13.89 | +$1.22 | Stable ~$13–14 on LP-B/LP-B2 across 3 runs | MODERATE (stable) | Former control; keep as a benchmark |
+
+### 5B · Audience (same ad R3C02)
+| Rank | Audience | CPA (calc.) | Profit / first order (calc.) | Freq. | Confidence | Label |
 |---|---|---|---|---|---|---|
-| 1 | C | **R4C03** "Use the whole jar. Then decide." | **$11.90** | LP-CVR 7.61%, ATC/LPV 24.5%, ATC→purchase 31.1%, ROAS 2.27 | LOW for the CPA gap (vs control p≈0.67), despite 42 purchases | **Statistical tie with the control.** A possible edge; a low-risk swap |
-| 2 | A | R3C02 control | $13.16 | Most stable ad across R3–R4 ($14.29 → $18.52 on page A → $13.89 on LP-B → $13.16 on LP-B2) | MODERATE (stable across runs) | **Reliable control** |
-| 3 | B | R4C02 creator | $15.15 | Best CTR 2.17% (p≈0.003), best hold 34.6% (p<0.001), lowest LP-CVR 5.16% | Attention HIGH (replicated) · CPA LOW | **Attention specialist**, not a CPA driver here |
+| 1 | Skincare-interest (practice assumption) | $13.33 | +$1.78 | 1.14 | LOW (p≈0.33) | **Viable second audience**, not proven better |
+| 2 | Broad (current) | $14.81 | +$0.30 | 1.48 (rising for 6 runs) | LOW | Near break-even on this ad |
 
-**Round 4 overall winner (practice):** not an ad. **LP-B2**, the speed-fixed message-match page, moved the control's CPA from ~$18.5 (page A) to ~$13 with high confidence that the speed fix recovered the drop-off.
+## 2. Winning elements (updated)
 
-## 2. Winning elements (cumulative, after 4 rounds)
-
-| Element | Current best | Evidence level (practice) | Notes |
+| Element | Current best | Evidence (practice) | Change vs Round 4 |
 |---|---|---|---|
-| **Hook** | Real-time rub-test macro + "The rub test every moisturizer should pass." | HIGH on attention (R1–R2), stable since | Hook rate has plateaued at ~37% across 3 different ads |
-| **Angle** | Proof (demo) + risk reversal (60-day empty-jar guarantee) | Directional, consistent across 4 rounds | — |
-| **Structure** | Guarantee overlay at 3–8s, during the demo | Directional (R2→R3 pattern; R3 lead partly shrank on re-run) | Keep it; it hasn't been beaten |
-| **Presenter** | Founder for CPA; creator for attention | Creator attention: HIGH (2 rounds) · founder CPA edge: LOW | — |
-| **CTA** | "Use the whole jar. Then decide." ≈ "Try it for 60 days" | Tie (p≈0.67) | Either is fine; pick on brand preference |
-| **Landing page** | LP-B2: rub-test loop + matching headline + guarantee beside the price, poster-first loading | Speed fix HIGH (p≈0.003); page gain directional but replicated (4A + 4B) | **The biggest single lever found so far** |
-| **Audience** | Broad US 25–45 (only one tested) | **DATA NOT PROVIDED** for alternatives | Frequency 1.22 → 1.41 over 5 runs |
+| **Hook** | **Real-time patch test on the jaw + "How I try anything new on sensitive skin."** | HIGH on attention (beats the rub test: 42.9% vs 36.9%) | **New.** First hook to beat the rub test since Round 2 |
+| **Angle** | **Objection: "What if I react?"** + risk reversal | CPA directional; attention HIGH | **New.** Replaces "proof via rub test" as the lead angle |
+| **Structure** | Live action first → guarantee overlay at 3–8s → founder → CTA | Held across angles (all 3 ads share it) | Unchanged; the structure transfers to new angles |
+| **Presenter** | Founder | Creator still untested on a matched page (R5-05 backlog) | Unchanged |
+| **CTA** | "Try it for 60 days" (practice assumption) ≈ "Use the whole jar. Then decide." | Tie in 4B | Unchanged |
+| **Landing page** | LP-B2 | LPV ~86%, LP-CVR ~6.4–7.7% across ads | Unchanged; holding steady |
+| **Audience** | Broad + skincare-interest as a complement | Not significant; the frequency signal favours adding audience 2 | **New option** |
+| **Economics** | Break-even CPA ≈ **$15.11** (first order) / **$18.17** (incl. 60-day repeats) | Practice unit economics | **First time measurable** |
 
 ## 3. Losers' lessons
-- **R4C02 (creator):** two rounds of the best attention but weaker conversion, even on the improved page. **Lesson (hypothesis): for this brand, creators may be better at reach than at purchase. A creator-matched page is the one untested explanation left.**
-- **Variant fatigue:** three ads in 4B had the same hook rate (~37%) and CPAs within noise of each other. **Lesson: this creative family looks optimized. Further one-variable tweaks are likely to show small, hard-to-detect differences.**
-- **Method:** even at 33–42 purchases per ad, a 10% CPA gap wasn't detectable. **Small improvements need much more volume to confirm, so pick tests that could plausibly produce big differences.**
+- **R5C01 (label reveal):** text-led footage stops fewer people (32.1% hook, high confidence) even when the visitors it brings convert well. **Lesson (hypothesis): reading-based openers work against cold audiences; keep them for people who already know the brand.**
+- **R3C02 (former control):** consistent but no longer the best. **Lesson: a strong control can be overtaken by a new angle, not just by tweaks. Keep it as the benchmark that new ideas must beat.**
+- **Broad audience:** the CPA edged up while frequency kept climbing (1.22 → 1.48 over 6 runs). **Lesson (hypothesis): audience fatigue may be starting; diversify before scaling.**
+- **Economics lesson:** with practice break-even at ~$15, **CPAs from Rounds 1–3 ($18–23) would have lost money on first orders.** Optimizing CPA mattered; the ad work moved this brand (in practice) from unprofitable to thinly profitable.
 
-## 4. Round 5 direction: new territory, not more variants
+## 4. Round 6 variations (drafts; each changes one variable)
 
-| ID | Type | What's new | Hypothesis | Compliance note |
+| ID | Keeps | Changes | Hypothesis | Compliance note |
 |---|---|---|---|---|
-| R5-01 | **New angle** | "Fewer ingredients, fewer surprises" (C4) **rebuilt with the winning structure**: live INCI demo in the first second (e.g., hand slides the jar to show the full label) + guarantee at 3s | Round 1's C4 failed as a static scroll; with live action + early guarantee it may compete | INCI must be real; "fewer ingredients" ≠ "won't irritate" |
-| R5-02 | **New angle** | "What if I react?" (C9), patch-test demo on camera + guarantee at 3s | Speaks to the core sensitive-skin fear directly; untested since Round 1 planning | "Discontinue use if irritation occurs"; patch-test guidance verified |
-| R5-03 | **New format** | SPF-layering split screen (R4-05) as its own ad | Answers the pilling-under-SPF question for makeup/SPF wearers | Caption the SPF type; results vary |
-| R5-04 | **New audience** (no new creative) | R3C02 → a second audience you choose (e.g., skincare-interest vs broad) | Tests whether rising frequency is capping results | Audience choice is yours; no personal-attribute language |
-| R5-05 | **Creator, last check** | R4-02 V3: creator ad → creator-matched page | Settles whether the creator gap is a message-match issue | #ad on the ad and "[Name] is a paid partner" on the page |
-| R5-06 | **Real proof** | Start collecting **real, consented customer reviews** for the page and a future testimonial ad (CL11/C13) | Social proof is the main missing trust element after 4 rounds | Real customers only; no incentivized reviews without disclosure; show them unedited |
+| R6-01 | R5C02 body + structure | **Hook → patch test + rub test combined** (0–1.5s dab on jaw, 1.5–3s rub test on hand) | Combines the two strongest openers | Both shots real-time; "One take" only where literally true |
+| R6-02 | R5C02 | **Presenter → genuine creator** doing their own patch test | Is the patch-test angle presenter-independent? Creators did well on attention before | #ad / Paid partnership; the creator's own real habit only |
+| R6-03 | R5C02 | **Patch-test diary version (R5-02 V2)**: real Day 1/2/3 clips | Time-based proof may deepen trust | Real footage from those days; "Individual experiences vary" |
+| R6-04 | R5C01 (label reveal) | **Audience → retargeting** (site visitors / video viewers, your choice) | Label-led content may suit warmer audiences | Targeting is your choice; no personal-attribute language |
+| R6-05 | R5C02 | **Audience → skincare-interest** as its own ad set (vs broad) | Does the new control hold on the fresher audience? | As above |
+| R6-06 | — | **First real testimonial ad**, only once enough real, consented reviews exist (R5-06) | Social proof is still the main missing trust signal | Real customers, written consent, verbatim; "Results vary" if outcomes are mentioned |
 
-**Suggested Round 5 (recommendation only):**
-- **Ad test:** R3C02 (control, with the R4C03 or original CTA, your pick) vs **R5-01** vs **R5-02** → LP-B2.
-- **In parallel, separately:** R5-04 audience test with the control ad only.
-- **Ongoing:** R5-06 review collection (it isn't an ad test, but it unlocks future angles).
+**Suggested Round 6 (recommendation only):**
+- **Angle/hook test:** R5C02 (new control) vs R6-01 vs R6-02 → LP-B2, broad + skincare-interest (the same mix for all ads).
+- **Separately:** R6-04 retargeting test with R5C01, if you choose to try retargeting.
+- **Gate R6-06** on real reviews existing.
+- **Before any scaling:** set a maximum acceptable CPA using **real** unit economics. All Round 5 CPAs are within ~$1–5 of the practice break-even.
 - Budget, duration, audiences and launch are your decisions.
 
-## 5. Before any scaling decision
-Still missing after **five** test runs: **gross margin, refund rate (60-day guarantee), repeat purchase rate.**
-Without them, the system can't say whether a ~$12–13 CPA is profitable, or how much the guarantee costs in refunds. These are the most important numbers to paste next.
+## 5. Process notes after 5 rounds (practice)
+- **What moved CPA the most (practice):** live product action in hooks (R1→R2), the guarantee earlier (R2→R3), the message-match page + speed fix (R4A/B), a **new objection-led angle** (R5).
+- **What barely moved it:** CTA wording (R4B), stacked hooks (R3), the presenter swap without a matched page (R3–R4).
+- **Method:** with ~20% gaps, ~40–50 purchases per ad still gave p≈0.16. Confirming differences this size needs more volume or longer runs (a cost/benefit call for you).
+- **Unit economics changed the question** from "which CPA is lowest?" to "which ads are profitable with room to scale?"
 
 ## Human decisions required
-- Control CTA choice (R4C03 wording vs original). → HUMAN DECISION REQUIRED
-- LP-B2 as the default page. → HUMAN DECISION REQUIRED
-- Approve the Round 5 direction (new angles + audience test + review collection) → back to Agent 4/5. → HUMAN DECISION REQUIRED
-- Provide margin, refund rate and repeat rate before considering any scaling. → HUMAN DECISION REQUIRED
+- Make R5C02 the new control? Keep R3C02 as a benchmark? → HUMAN DECISION REQUIRED
+- Add the skincare-interest audience? Try retargeting with R5C01? → HUMAN DECISION REQUIRED
+- Set a maximum acceptable CPA from real unit economics before any scaling. → HUMAN DECISION REQUIRED
+- Approve the Round 6 concepts → back to Agent 4/5. → HUMAN DECISION REQUIRED
 
 ## Open questions
-1. Margin, refund rate, repeat rate?
-2. Which second audience would you consider for R5-04?
-3. Is there a plan or tool to collect real customer reviews (R5-06)?
+1. Real cost per order, refund rate and repeat rate (to replace the practice inputs)?
+2. Do you want a retargeting test (R6-04)? It needs your targeting setup.
+3. How many real reviews exist so far (R6-06 gate)?
 
 ---
 
@@ -109,3 +119,11 @@ Without them, the system can't say whether a ~$12–13 CPA is profitable, or how
 - **Replicated (high confidence, attention only):** the creator (R4C02) wins CTR and hold rate but trails on conversion, two rounds running
 - **Learned (hypothesis):** this creative family is near its ceiling (hook ~37% across 3 ads; CPAs within noise). Next gains are more likely from new angles, audiences, real social proof, or the page
 - **Next test:** R3C02 vs R5-01 (live INCI + early guarantee) vs R5-02 (patch-test + early guarantee); a separate audience test (R5-04); start real review collection (R5-06)
+
+### Round 5 · 🚨 PRACTICE DATA (incl. practice CTA, audience 2 and unit economics) · 5A 12 days / 5B 10 days · Meta · → LP-B2
+- **Best converter + most profitable:** R5C02 · Hook: real-time patch test on the jaw, "How I try anything new on sensitive skin." · Angle: objection ("What if I react?") + guarantee overlay at 3–8s · Founder body · CTA "Try it for 60 days" · CPA $10.64 (calc.), 47 purchases, **+$4.47 profit per first order** (calc., practice economics) · CPA vs control p≈0.16 (directional) · hook 42.9% vs 36.9% (p<0.001, HIGH)
+- **Learned (high confidence, attention):** the first new hook to beat the rub test since Round 2. **New angles can produce bigger gains than tweaks**
+- **Learned (hypothesis):** the label-reveal opener (R5C01) stops fewer cold viewers but converts the ones it brings. Possibly a retargeting asset
+- **Audience:** skincare-interest $13.33 vs broad $14.81 (p≈0.33); broad frequency 1.48 and rising. Add audience 2 as a complement
+- **Economics (practice):** break-even CPA ≈ $15.11 first order / $18.17 incl. 60-day repeats. All Round 5 ads are thinly profitable; Rounds 1–3 CPAs would have been unprofitable
+- **Next test:** R5C02 vs R6-01 (patch + rub-test hook) vs R6-02 (creator patch test); a separate retargeting test with R5C01; a testimonial ad only once real reviews exist
